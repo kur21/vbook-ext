@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Hentailx",
+    "author": "Kur",
+    "version": 1,
+    "source": "https://lxmanga.com",
+    "regexp": "(www.)?lxmanga.com/truyen/.*",
+    "description": "Đọc truyện trên trang LX Hentai",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic",
+    "tag" : "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
