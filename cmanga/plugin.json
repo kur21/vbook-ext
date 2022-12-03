@@ -1,15 +1,14 @@
 {
   "metadata": {
-    "name": "HentaiLx",
+    "name": "CManga",
     "author": "Kur",
     "version": 1,
-    "source": "https://lxmanga.com",
-    "regexp": "(www.)?lxmanga.com/truyen/.*",
-    "description": "Đọc truyện trên trang LX Hentai",
-    "locale": "vi_VN",
+    "source": "https://cmangaz.com",
+    "regexp": "(www.)?cmangaz.com/[0-9a-z-]+",
+    "description": "Site mã hoá nên load chậm hơn bình thường đừng có kêu ca",
+    "locale": "vi-VN",
     "language": "javascript",
-    "type": "comic",
-    "tag" : "nsfw"
+    "type": "comic"
   },
   "script": {
     "home": "home.js",

@@ -96,17 +96,3 @@ browser.close() // Đóng browser khi đã xử lý xong
 Console.log() // Log data in tab logcat
 load('filename.js') // Load file js
 ```
-
-# Test extension
-- PC cài Java phiên bản 1.8 trở lên
-- Kết nối điện thoại và PC cùng 1 mạng lan.
-- Trên điện thoại chạm 7 lần vào tên phiên bản để mở tính năng nhà phát triển
-  
-  ![Version app](tutorial/1.jpg)
-- Bật `chế độ nhà phát triển` để lấy IP của điện thoại.
-
-![IP](tutorial/2.jpg)
-
-- Nhập IP vào tool trên PC
-
-![IP](tutorial/3.png)

@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "name": "HentaiLx",
+    "name": "HentaiVN",
     "author": "Kur",
     "version": 1,
-    "source": "https://lxmanga.com",
-    "regexp": "(www.)?lxmanga.com/truyen/.*",
-    "description": "Đọc truyện trên trang LX Hentai",
+    "source": "https://hentaivn.in",
+    "regexp": "(www.)?hentaivn.(net|tv|moe|fun|la|in)/\\d+-[^/]+.html$",
+    "description": "Đọc truyện trên trang HentaiVN",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "comic",
-    "tag" : "nsfw"
+    "tag": "nsfw"
   },
   "script": {
     "home": "home.js",

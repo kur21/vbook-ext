@@ -1,15 +1,14 @@
 {
   "metadata": {
-    "name": "HentaiLx",
+    "name": "Vlog Truyện",
     "author": "Kur",
     "version": 1,
-    "source": "https://lxmanga.com",
-    "regexp": "(www.)?lxmanga.com/truyen/.*",
-    "description": "Đọc truyện trên trang LX Hentai",
-    "locale": "vi_VN",
+    "source": "https://vlogtruyen2.net",
+    "regexp": "(www.)?vlogtruyen2.net/[^/]+.html",
+    "description": "Đọc truyện tại vlogtruyen2.net",
+    "locale": "vi-VN",
     "language": "javascript",
-    "type": "comic",
-    "tag" : "nsfw"
+    "type": "comic"
   },
   "script": {
     "home": "home.js",
