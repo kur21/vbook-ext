@@ -20,7 +20,7 @@
         "name": "HentaiVN",
         "author": "Kur",
         "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/plugin.zip",
-        "version": 2,
+        "version": 3,
         "type": "comic",
         "tag": "nsfw",
         "locale": "vi_VN",

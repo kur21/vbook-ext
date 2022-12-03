@@ -2,7 +2,7 @@
   "metadata": {
     "name": "HentaiVN",
     "author": "Kur",
-    "version": 2,
+    "version": 3,
     "source": "https://hentaivn.in",
     "regexp": "(www.)?hentaivn.(net|tv|moe|fun|la|in)/\\d+-[^/]+.html$",
     "description": "Đọc truyện trên trang HentaiVN",
