@@ -5,17 +5,6 @@
   },
   "data": [
     {
-        "name": "Net Truyện",
-        "author": "Kur",
-        "path": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/nettruyen/plugin.zip",
-        "version": 14,
-        "type": "comic",
-        "locale": "vi_VN",
-        "source": "https://www.nettruyentv.com",
-        "icon": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/nettruyen/icon.png",
-        "description": "Đọc truyện trên trang Net Truyện"
-    },
-    {
         "name": "LxHentai",
         "author": "Kur",
         "path": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/nettruyen/plugin.zip",
