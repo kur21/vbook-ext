@@ -17,22 +17,10 @@
         "description": "Đọc truyện trên trang LxHentai"
     },
     {
-        "name": "HentaiVNVip",
-        "author": "Kur",
-        "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivnvip/plugin.zip",
-        "version": 1,
-        "type": "comic",
-        "tag": "nsfw",
-        "locale": "vi_VN",
-        "source": "https://hentaivnvip.net/",
-        "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivnvip/icon.png",
-        "description": "Đọc truyện trên trang Hentaivnvip"
-    },
-    {
         "name": "HentaiVN",
         "author": "Kur",
         "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/plugin.zip",
-        "version": 1,
+        "version": 1.1,
         "type": "comic",
         "tag": "nsfw",
         "locale": "vi_VN",
@@ -50,17 +38,6 @@
         "source": "https://vlogtruyen2.net/",
         "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/icon.png",
         "description": "Đọc truyện trên trang Vlogtruyen"
-    },
-    {
-        "name": "Cmanga",
-        "author": "Kur",
-        "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-        "version": 1,
-        "type": "comic",
-        "locale": "vi_VN",
-        "source": "https://cmangaz.com",
-        "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
-        "description": "Đọc truyện trên trang Cmanga"
     }
   ]
 }
