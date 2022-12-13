@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Tranh Audio",
+    "author": "vBook",
+    "version": 1,
+    "source": "https://truyentranhaudio.online",
+    "regexp": "(www.)?truyentranhaudio.online/.*?.html$",
+    "description": "Đọc truyện trên trang truyentranhaudio.online",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
