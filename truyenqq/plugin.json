@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "Truyện Tranh Audio",
-    "author": "vBook",
-    "version": 2,
-    "source": "https://truyentranhaudio.online",
-    "regexp": "(www.)?truyentranhaudio.online/.*?.html$",
-    "description": "Đọc truyện trên trang truyentranhaudio.online",
+    "name": "Truyện QQ",
+    "author": "Kur",
+    "version": 1,
+    "source": "https://truyenqqhot.com",
+    "regexp": "(www.)?(truyenqqhot).(com|net)/truyen-tranh/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang Truyện QQ",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "comic"

@@ -21,7 +21,7 @@ function execute(url, page) {
             name: e.select(".box_tootip .box_li .title").text(),
             link: link,
             cover: coverImg,
-            description: e.select(".box_tootip .box_li .box_text").text(),
+            description: e.select(".chapter a").first().text(),
             host: "https://truyentranhaudio.online"
         })
     }

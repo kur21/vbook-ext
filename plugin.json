@@ -43,7 +43,7 @@
             "name": "Truyentranhaudio",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyentranhaudio/plugin.zip",
-            "version": 1,
+            "version": 2,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://truyentranhaudio.online",
@@ -71,6 +71,17 @@
             "source": "https://saytruyen.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/saytruyen/icon.png",
             "description": "Đọc truyện trên trang Say truyện"
+        },
+        {
+            "name": "Truyện QQ",
+            "author": "Kur",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://truyenqqhot.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/icon.png",
+            "description": "Đọc truyện trên trang Truyện QQ"
         }
     ]
 }
