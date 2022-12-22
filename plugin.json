@@ -43,7 +43,7 @@
             "name": "Truyentranhaudio",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyentranhaudio/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://truyentranhaudio.online",
