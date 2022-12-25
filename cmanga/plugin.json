@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "CManga",
+    "author": "Kur",
+    "version": 1,
+    "source": "https://cmangaac.com",
+    "regexp": "(www.)?cmangaac.com/[0-9a-z-]+",
+    "description": "Đọc truyện trên Cmanga",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
