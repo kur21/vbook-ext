@@ -1,3 +1,4 @@
+load('src.js');
 function execute(url) {
     let doc = fetch(url).html();
     let el = doc.select(".mb-4 > ul > a")
@@ -6,8 +7,8 @@ function execute(url) {
         var e = el.get(i);
         data.push({
             name: e.select(".text-ellipsis").text(),
-            url: e.attr("href"),
-            host: "https://lxmanga.com"
+            url: src + e.attr("href"),
+            host: src
         })
     }
     return Response.success(data);

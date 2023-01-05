@@ -1,12 +1,13 @@
+load('src.js');
 function execute() {
-    const doc = Http.get("https://lxmanga.com").html();
+    const doc = Http.get(src).html();
     const el = doc.select(".mt-2 a");
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
         data.push({
            title: e.text(),
-           input: 'https://lxmanga.com'+ e.attr('href'),
+           input: src + e.attr('href'),
            script: 'cat.js'
         });
     }

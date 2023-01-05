@@ -1,3 +1,4 @@
+load('src.js');
 function execute(url, page) {
     if (!page) page = 1;
     let response = fetch(url,{
@@ -16,7 +17,7 @@ function execute(url, page) {
             link: e.select("a.text-ellipsis").attr("href"),
             cover: e.select(".cover").first().attr("style").split("'")[1],
             description: e.select("a.text-white").first().text(),
-            host: "https://lxmanga.com"
+            host: src
         }))
         return Response.success(data,(page+1).toString())
     }
