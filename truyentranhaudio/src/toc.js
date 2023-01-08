@@ -1,3 +1,5 @@
+load('src.js');
+
 function execute(url) {
     var doc = Http.get(url).html();
 
@@ -8,7 +10,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://truyentranhaudio.online"
+            host: src
         })
     }
 

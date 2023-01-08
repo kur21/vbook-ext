@@ -1,6 +1,6 @@
 function execute(url) {
     var doc = Http.get(url).html();
-    var el = doc.select(".page-chapter img");
+    var el = doc.select(".reading-detail.box_doc img");
     
     var data = [];
     for (var i = 0; i < el.size(); i++) {

@@ -1,3 +1,5 @@
+load('src.js');
+
 function execute(url) {
     const doc = Http.get(url).html()
     var coverImg = doc.select(".detail-info img").first().attr("src");
@@ -10,7 +12,7 @@ function execute(url) {
         author: doc.select(".author a").first().text(),
         description: doc.select(".detail-content p").html(),
         detail: doc.select(".list-info").html(),
-        host: "https://truyentranhaudio.online",
+        host: src,
         ongoing: doc.select(".detail-info .status").html().indexOf("Đang tiến hành") >= 0
     });
 }

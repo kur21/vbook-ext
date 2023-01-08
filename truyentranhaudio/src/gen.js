@@ -1,3 +1,5 @@
+load('src.js');
+
 function execute(url, page) {
     if (!page) page = '1';
     const doc = Http.get(url).params({"page": page}).html()
@@ -15,14 +17,14 @@ function execute(url, page) {
         }
         var link = e.select(".box_tootip .box_li .box_img a").attr("href")
         if (link.startsWith("/")) {
-            link = "https://truyentranhaudio.online" + link;
+            link = src + link;
         }
         data.push({
             name: e.select(".box_tootip .box_li .title").text(),
             link: link,
             cover: coverImg,
             description: e.select(".chapter a").first().text(),
-            host: "https://truyentranhaudio.online"
+            host: src
         })
     }
 

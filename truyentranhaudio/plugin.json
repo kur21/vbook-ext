@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Truyện Tranh Audio",
     "author": "vBook",
-    "version": 4,
+    "version": 5,
     "source": "https://truyentranhaudio.online",
     "regexp": "(www.)?truyentranhaudio.online/.*?.html$",
     "description": "Đọc truyện trên trang truyentranhaudio.online",
