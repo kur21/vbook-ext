@@ -1,8 +1,9 @@
 load('bypass.js');
+load('config.js');
 function execute(url, page) {
     if (!page) page = '1';
     url = url.replace(".html", "") + "/trang-" + page + ".html";
-    var doc = bypass(url, fetch(url).html());
+    var doc = bypass(BASE_URL + url, fetch(BASE_URL + url).html());
 
     if (doc) {
         var novelList = [];
@@ -10,14 +11,14 @@ function execute(url, page) {
         doc.select("#main_homepage .list_grid li").forEach(e => {
             var cover = e.select(".book_avatar img").attr("src");
             if (cover.startsWith("//")) {
-                cover = "http:" + cover;
+                cover = "https:" + cover;
             }
             novelList.push({
                 name: e.select(".book_name").text(),
                 link: e.select(".book_name a").first().attr("href"),
                 description: e.select(".last_chapter").text(),
                 cover: cover,
-                host: "https://truyenqqhot.com"
+                host: BASE_URL
             });
         })
 

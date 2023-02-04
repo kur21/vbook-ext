@@ -3,6 +3,8 @@ function bypass(url, doc) {
     if (cookie) {
         cookie = cookie[1];
         doc = Http.get(url).headers({"Cookie": cookie}).html();
+        Console.log(cookie);
+        Console.log(doc);
     }
     return doc
 }
