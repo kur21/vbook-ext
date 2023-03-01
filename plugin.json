@@ -104,6 +104,18 @@
             "source": "https://cmangaac.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
             "description": "Đọc truyện trên trang CManga"
+        },
+        {
+            "name": "Everia",
+            "author": "Kur",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/plugin.zip",
+            "version": 1,
+            "type": "gallery",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://everia.club",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/icon.png",
+            "description": "Xem ảnh trên trang Everia"
         }
     ]
 }
