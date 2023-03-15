@@ -1,14 +1,15 @@
 {
   "metadata": {
-    "name": "Say Truyện",
+    "name": "Say Hentai",
     "author": "Kur",
-    "version": 2,
-    "source": "https://saytruyen.com",
-    "regexp": "(www.)?saytruyen.us/[^/]+.html",
-    "description": "Đọc truyện trên trang Say Truyện",
+    "version": 1,
+    "source": "https://sayhentai.me",
+    "regexp": "(www.)?sayhentai.me/[^/]+.html",
+    "description": "Đọc truyện trên trang Say Hentai",
     "locale": "vi_VN",
     "language": "javascript",
-	"type": "comic"
+	"type": "comic",
+    "tag" : "nsfw"
   },
   "script": {
     "home": "home.js",

@@ -1,3 +1,5 @@
+load('src.js');
+
 function execute(url, page) {
     if (!page) page = '1';
     const doc = Http.get(url).params({page: page}).html();
@@ -14,7 +16,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select(".image-commic-tab img").first().attr("data-src"),
             description: e.select(".chapter-commic-tab a").first().text(),
-            host: "https://vlogtruyen2.net"
+            host: BASE_URL
         })
     }
 

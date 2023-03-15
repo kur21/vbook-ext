@@ -1,6 +1,8 @@
+load('src.js');
+
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://vlogtruyen2.net/tim-kiem').params({q:key,page: page}).html();
+    const doc = Http.get(BASE_URL + '/tim-kiem').params({q:key,page: page}).html();
 
     var next = doc.select(".pagination").select("li.active + li").text()
 
@@ -14,7 +16,7 @@ function execute(key, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select(".image-commic-tab img").first().attr("data-src"),
             description: e.select(".chapter-commic-tab a").first().text(),
-            host: "https://vlogtruyen2.net"
+            host: BASE_URL
         })
     }
 

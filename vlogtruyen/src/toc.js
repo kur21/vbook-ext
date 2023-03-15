@@ -1,9 +1,11 @@
+load('src.js');
+
 function execute(url) {
     let response = fetch(url);
     if(response.ok){
         let doc = response.html();
         let mid = doc.select('input[name=manga_id]').attr('value');
-        let res = fetch("https://vlogtruyen2.net/thong-tin-ca-nhan?manga_id="+mid, {
+        let res = fetch(BASE_URL + "/thong-tin-ca-nhan?manga_id="+mid, {
             method: "GET",
             headers: {
                 "x-requested-with": "XMLHttpRequest"
@@ -18,7 +20,7 @@ function execute(url) {
                 list.push({
                     name: e.select("h3").text(),
                     url: e.attr("href"),
-                    host: "https://vlogtruyen2.net"
+                    host: BASE_URL
                 })
             }
             return Response.success(list);

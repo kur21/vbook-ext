@@ -1,5 +1,7 @@
+load('src.js');
+
 function execute() {
-    let response = fetch('https://goctruyentranhvui.com/api/category');
+    let response = fetch(BASE_URL + '/api/category');
     if(response.ok){
         let json = response.json();
         let allItem = json.result

@@ -1,5 +1,7 @@
+load('src.js');
+
 function execute() {
-    const doc = Http.get("https://vlogtruyen2.net").html();
+    const doc = Http.get(BASE_URL).html();
     const el = doc.select(".dropdown-menu li a");
     const data = [];
     for (var i = 0; i < el.size(); i++) {

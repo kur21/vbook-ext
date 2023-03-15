@@ -1,6 +1,8 @@
+load('src.js');
+
 function execute(key, page) {
     if(!page) page = '0';
-    let response = fetch('https://goctruyentranhvui.com/api/comic/search/',{
+    let response = fetch(BASE_URL + '/api/comic/search/',{
         method : "GET",
         queries : {
             name : key
@@ -13,10 +15,10 @@ function execute(key, page) {
             let data = [];
             allItem.forEach(item => data.push({
                 name: item.name,
-                link: 'https://goctruyentranhvui.com/truyen/'+item.nameEn,
+                link: BASE_URL + '/truyen/'+item.nameEn,
                 cover: item.photo,
                 description: 'Chap '+item.chapterLatest[0],
-                host: "https://goctruyentranhvui.com"
+                host: BASE_URL
             }))
             return Response.success(data)
         }
