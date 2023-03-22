@@ -3,10 +3,11 @@ load('src.js');
 function execute(url, page) {
     if (!page) page = '1';
     const doc = Http.get(url).params({"page": page}).html()
-
+    
     var next = doc.select(".pagination").select("li.active + li").text()
 
     const el = doc.select(".ModuleContent .items .item");
+
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
@@ -15,7 +16,7 @@ function execute(url, page) {
         if (coverImg.startsWith("//")) {
             coverImg = "https:" + coverImg
         }
-        var link = e.select(".box_tootip .box_li .box_img a").attr("href")
+        var link = e.select(".img a").attr("href")
         if (link.startsWith("/")) {
             link = src + link;
         }

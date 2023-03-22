@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Truyện Tranh Audio",
     "author": "vBook",
-    "version": 5,
-    "source": "https://truyentranhaudio.online",
-    "regexp": "(www.)?truyentranhaudio.online/.*?.html$",
-    "description": "Đọc truyện trên trang truyentranhaudio.online",
+    "version": 6,
+    "source": "https://truyentranhaudio.com",
+    "regexp": "(www.)?truyentranhaudio.com/.*?.html$",
+    "description": "Đọc truyện trên trang truyentranhaudio",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "comic"

@@ -1,13 +1,9 @@
+load('src.js');
+
 function execute(url) {
-    url = url.replace("hentaivn.net", "hentaivn.tv");
-    url = url.replace("hentaivn.tv", "hentaivn.moe");
-    url = url.replace("hentaivn.moe", "hentaivn.fun");
-    url = url.replace("hentaivn.fun", "hentaivn.la");
-    url = url.replace("hentaivn.la", "hentaivn.in");
-    url = url.replace("hentaivn.in", "hentaivn.de");
     let response = fetch(url, {
         headers: {
-            "referer": "https://hentaivn.de"
+            "referer": BASE_URL
         }
     });
 

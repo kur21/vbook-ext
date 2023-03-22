@@ -24,7 +24,9 @@ function execute(url) {
                 Authorization: auth
             },
         })
-        imgs = response.json().result.data
+        if(response.ok) {
+            imgs = response.json().result.data
+        }
     } else {
         el.forEach ( e => {
             imgs.push(e.attr("src"));
