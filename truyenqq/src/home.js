@@ -1,6 +1,6 @@
 function execute() {
     return Response.success([
-        {title: "Mới Cập Nhật", input: "/truyen-moi-cap-nhat.html", script: "gen.js"},
+        {title: "Mới Cập Nhật", input: "/tim-kiem-nang-cao.html?sort=2", script: "gen.js"},
         {title: "Top Ngày", input: "/top-ngay.html", script: "gen.js"},
         {title: "Top Tuần", input: "/top-tuan.html", script: "gen.js"},
         {title: "Top Tháng", input: "/top-thang.html", script: "gen.js"},
