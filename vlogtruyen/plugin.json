@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Vlog Truyện",
     "author": "Kur",
-    "version": 3,
-    "source": "https://vlogtruyen2.com",
-    "regexp": "(www.)?vlogtruyen2.com/[^/]+.html",
+    "version": 4,
+    "source": "https://vlogtruyenvip.com",
+    "regexp": "(www.)?vlogtruyenvip.com/[^/]+.html",
     "description": "Đọc truyện tại vlogtruyen2.com",
     "locale": "vi-VN",
     "language": "javascript",
