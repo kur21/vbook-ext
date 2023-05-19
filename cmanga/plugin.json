@@ -2,9 +2,9 @@
   "metadata": {
     "name": "CManga",
     "author": "Kur",
-    "version": 2,
-    "source": "https://cmangaad.com",
-    "regexp": "(www.)?cmangaad.com/[0-9a-z-]+",
+    "version": 3,
+    "source": "https://cmangaaf.com",
+    "regexp": "(www.)?cmangaaf.com/[0-9a-z-]+",
     "description": "Đọc truyện trên Cmanga",
     "locale": "vi-VN",
     "language": "javascript",

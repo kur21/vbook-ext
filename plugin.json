@@ -20,7 +20,7 @@
             "name": "HentaiVN",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/plugin.zip",
-            "version": 7,
+            "version": 8,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -32,10 +32,10 @@
             "name": "Vlogtruyen",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/plugin.zip",
-            "version": 4,
+            "version": 5,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://vlogtruyen2.com/",
+            "source": "https://vlogtruyen3.com/",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/icon.png",
             "description": "Đọc truyện trên trang Vlogtruyen"
         },
@@ -65,7 +65,7 @@
             "name": "Say Truyện",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/saytruyen/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://saytruyen.com",
@@ -76,10 +76,10 @@
             "name": "Truyện QQ",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
-            "version": 5,
+            "version": 6,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://truyenqqmoi.com",
+            "source": "https://truyenqqq.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/icon.png",
             "description": "Đọc truyện trên trang Truyện QQ"
         },
@@ -98,10 +98,10 @@
             "name": "CManga",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://cmangaad.com",
+            "source": "https://cmangaaf.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
             "description": "Đọc truyện trên trang CManga"
         },
@@ -128,6 +128,17 @@
             "source": "https://sayhentai.me",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
             "description": "Đọc truyện trên trang Say Hentai"
+        },
+        {
+            "name": "QManga",
+            "author": "Kur",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://qmangavip.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/icon.png",
+            "description": "Đọc truyện trên trang QManga"
         }
     ]
 }

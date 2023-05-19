@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "Vlog Truyện",
+    "name": "QManga",
     "author": "Kur",
-    "version": 5,
-    "source": "https://vlogtruyen3.com",
-    "regexp": "(www.)?vlogtruyen3.com/[^/]+.html",
-    "description": "Đọc truyện tại vlogtruyen",
-    "locale": "vi-VN",
+    "version": 1,
+    "source": "https://qmangavip.com",
+    "regexp": "(www.)?qmangavip.*?(net|co|com)/[^/]+.html$",
+    "description": "Đọc truyện trên trang QManga",
+    "locale": "vi_VN",
     "language": "javascript",
     "type": "comic"
   },

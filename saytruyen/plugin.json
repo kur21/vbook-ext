@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Say Truyện",
     "author": "Kur",
-    "version": 2,
+    "version": 3,
     "source": "https://saytruyen.com",
-    "regexp": "(www.)?saytruyen.us/[^/]+.html",
+    "regexp": "(www.)?saytruyen.xyz/[^/]+.html",
     "description": "Đọc truyện trên trang Say Truyện",
     "locale": "vi_VN",
     "language": "javascript",

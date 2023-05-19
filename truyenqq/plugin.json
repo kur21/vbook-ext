@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Truyện QQ",
     "author": "Kur",
-    "version": 5,
-    "source": "https://truyenqqmoi.com",
+    "version": 6,
+    "source": "https://truyenqqq.com",
     "regexp": "(www.)?truyenqq*.*?/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Truyện QQ",
     "locale": "vi_VN",
