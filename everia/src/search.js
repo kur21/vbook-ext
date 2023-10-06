@@ -4,18 +4,18 @@ function execute(key, page) {
 
     var next = doc.select("ul.page-numbers").select("li:has(.page-numbers.current) + li").text()
 
-    const el = doc.select(".posts-wrapper article .article-content-col")
+    const el = doc.select("#content.site-content article.post")
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
-        var imgCv = e.select(".nv-post-thumbnail-wrap img").first().attr("data-src")
+        var imgCv = e.select(".thumbnail a.thumbnail-link img").first().attr("data-src")
         if(!imgCv) {
-            imgCv = e.select(".nv-post-thumbnail-wrap img").first().attr("src")
+            imgCv = e.select(".thumbnail a.thumbnail-link img").first().attr("src")
         }
         data.push({
-            name: e.select("h2.blog-entry-title.entry-title a").first().text(),
-            link: e.select("h2.blog-entry-title.entry-title a").first().attr("href"),
+            name: e.select("h2.search-entry-title.entry-title a").first().text(),
+            link: e.select("h2.search-entry-title.entry-title a").first().attr("href"),
             cover: imgCv,
             description: "",
             host: "https://everia.club"
