@@ -1,5 +1,5 @@
 function execute(key, page) {
-    let response = fetch("https://kakarot.cuutruyen.net/api/v2/mangas/quick_search?q=" + key);
+    let response = fetch("https://cuutruyen.net/api/v2/mangas/quick_search?q=" + key);
 
     if (response.ok) {
         let json = response.json();
