@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Góc Truyện Tranh",
     "author": "Kur",
-    "version": 3,
-    "source": "https://goctruyentranhvui.com/",
-    "regexp": "(www.)?goctruyentranhvui.com/truyen/[0-9a-z-]+/?",
+    "version": 4,
+    "source": "https://goctruyentranhvui1.com/",
+    "regexp": "(www.)?goctruyentranhvui1.com/truyen/[0-9a-z-]+/?",
     "description": "Xem truyện tại Góc truyện tranh",
     "locale": "vi-VN",
     "language": "javascript",

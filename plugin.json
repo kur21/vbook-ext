@@ -87,10 +87,10 @@
             "name": "Góc truyện tranh",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 3,
+            "version": 4,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://goctruyentranhvui.com",
+            "source": "https://goctruyentranhvui1.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
             "description": "Đọc truyện trên trang Góc truyện tranh"
         },
