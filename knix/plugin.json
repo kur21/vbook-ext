@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "XX Knix",
+    "author": "Kur",
+    "version": 1,
+    "source": "https://xx.knit.bid/",
+    "regexp": "(www.)?xx.knit.bid/.*",
+    "description": "Xem gái trên Knix",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

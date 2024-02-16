@@ -151,6 +151,18 @@
             "source": "https://qmangavip.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/icon.png",
             "description": "Đọc truyện trên trang QManga"
-        }
+        },
+        {
+            "name": "XX Knix",
+            "author": "Kur",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/plugin.zip",
+            "version": 1,
+            "type": "gallery",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://xx.knit.bid/",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
+            "description": "Xem ảnh trên trang XX Knix"
+        },
     ]
 }
