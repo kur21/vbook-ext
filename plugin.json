@@ -160,7 +160,7 @@
             "type": "gallery",
             "tag": "nsfw",
             "locale": "vi_VN",
-            "source": "https://xx.knit.bid/",
+            "source": "https://xx.knit.bid",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
             "description": "Xem ảnh trên trang XX Knix"
         }
