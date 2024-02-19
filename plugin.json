@@ -16,62 +16,62 @@
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/icon.png",
             "description": "Đọc truyện trên trang LxHentai"
         },
-        {
-            "name": "HentaiVN",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/plugin.zip",
-            "version": 8,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://hentaivn.run/",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/icon.png",
-            "description": "Đọc truyện trên trang HentaiVN"
-        },
-        {
-            "name": "Vlogtruyen",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/plugin.zip",
-            "version": 5,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://vlogtruyen3.com/",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/icon.png",
-            "description": "Đọc truyện trên trang Vlogtruyen"
-        },
-        {
-            "name": "Truyentranhaudio",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyentranhaudio/plugin.zip",
-            "version": 6,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://truyentranhaudio.ocom",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyentranhaudio/icon.png",
-            "description": "Đọc truyện trên trang Truyentranhaudio"
-        },
-        {
-            "name": "Net Truyện",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
-            "version": 1,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://www.nettruyenking.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
-            "description": "Đọc truyện trên trang Nettruyen"
-        },
-        {
-            "name": "Say Truyện",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/saytruyen/plugin.zip",
-            "version": 3,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://saytruyen.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/saytruyen/icon.png",
-            "description": "Đọc truyện trên trang Say truyện"
-        },
+        // {
+        //     "name": "HentaiVN",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/plugin.zip",
+        //     "version": 8,
+        //     "type": "comic",
+        //     "tag": "nsfw",
+        //     "locale": "vi_VN",
+        //     "source": "https://hentaivn.run/",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentaivn/icon.png",
+        //     "description": "Đọc truyện trên trang HentaiVN"
+        // },
+        // {
+        //     "name": "Vlogtruyen",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/plugin.zip",
+        //     "version": 5,
+        //     "type": "comic",
+        //     "locale": "vi_VN",
+        //     "source": "https://vlogtruyen3.com/",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vlogtruyen/icon.png",
+        //     "description": "Đọc truyện trên trang Vlogtruyen"
+        // },
+        // {
+        //     "name": "Truyentranhaudio",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyentranhaudio/plugin.zip",
+        //     "version": 6,
+        //     "type": "comic",
+        //     "locale": "vi_VN",
+        //     "source": "https://truyentranhaudio.ocom",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyentranhaudio/icon.png",
+        //     "description": "Đọc truyện trên trang Truyentranhaudio"
+        // },
+        // {
+        //     "name": "Net Truyện",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
+        //     "version": 1,
+        //     "type": "comic",
+        //     "locale": "vi_VN",
+        //     "source": "https://www.nettruyenking.com",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
+        //     "description": "Đọc truyện trên trang Nettruyen"
+        // },
+        // {
+        //     "name": "Say Truyện",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/saytruyen/plugin.zip",
+        //     "version": 3,
+        //     "type": "comic",
+        //     "locale": "vi_VN",
+        //     "source": "https://saytruyen.com",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/saytruyen/icon.png",
+        //     "description": "Đọc truyện trên trang Say truyện"
+        // },
         {
             "name": "Truyện QQ",
             "author": "Kur",
@@ -94,17 +94,17 @@
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
             "description": "Đọc truyện trên trang Góc truyện tranh"
         },
-        {
-            "name": "CManga",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 3,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://cmangaaf.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
-            "description": "Đọc truyện trên trang CManga"
-        },
+        // {
+        //     "name": "CManga",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
+        //     "version": 3,
+        //     "type": "comic",
+        //     "locale": "vi_VN",
+        //     "source": "https://cmangaaf.com",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
+        //     "description": "Đọc truyện trên trang CManga"
+        // },
         {
             "name": "Everia",
             "author": "Kur",
@@ -129,29 +129,29 @@
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
             "description": "Xem ảnh trên trang Best Girl Sexy"
         },
-        {
-            "name": "Say Hentai",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
-            "version": 1,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://sayhentai.me",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
-            "description": "Đọc truyện trên trang Say Hentai"
-        },
-        {
-            "name": "QManga",
-            "author": "Kur",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/plugin.zip",
-            "version": 1,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://qmangavip.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/icon.png",
-            "description": "Đọc truyện trên trang QManga"
-        },
+        // {
+        //     "name": "Say Hentai",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
+        //     "version": 1,
+        //     "type": "comic",
+        //     "tag": "nsfw",
+        //     "locale": "vi_VN",
+        //     "source": "https://sayhentai.me",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
+        //     "description": "Đọc truyện trên trang Say Hentai"
+        // },
+        // {
+        //     "name": "QManga",
+        //     "author": "Kur",
+        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/plugin.zip",
+        //     "version": 1,
+        //     "type": "comic",
+        //     "locale": "vi_VN",
+        //     "source": "https://qmangavip.com",
+        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/qmanga/icon.png",
+        //     "description": "Đọc truyện trên trang QManga"
+        // },
         {
             "name": "XX Knix",
             "author": "Kur",
