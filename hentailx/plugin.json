@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "HentaiLx",
+    "name": "LxHentai",
     "author": "Kur",
-    "version": 2,
-    "source": "https://lxmanga.net",
-    "regexp": "(www.)?lxmanga.net/truyen/.*",
+    "version": 3,
+    "source": "https://lxmanga88.com",
+    "regexp": "(www.)?lxmanga88.com/truyen/.*",
     "description": "Đọc truyện trên trang LX Hentai",
     "locale": "vi_VN",
     "language": "javascript",
