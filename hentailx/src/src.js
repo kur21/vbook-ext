@@ -1,1 +1,1 @@
-src="https://lxmanga.net"
+src="https://lxmanga88.com"
