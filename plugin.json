@@ -8,11 +8,11 @@
             "name": "LxHentai",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-            "version": 3,
+            "version": 4,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
-            "source": "https://lxmanga88.com",
+            "source": "https://lxmanga.cc",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/icon.png",
             "description": "Đọc truyện trên trang LxHentai"
         },
