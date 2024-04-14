@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Say Hentai",
     "author": "Kur",
-    "version": 1,
-    "source": "https://sayhentai.me",
-    "regexp": "(www.)?sayhentai.me/[^/]+.html",
+    "version": 2,
+    "source": "https://sayhentai.pro",
+    "regexp": "(www.)?sayhentai.pro/[^/]+.html",
     "description": "Đọc truyện trên trang Say Hentai",
     "locale": "vi_VN",
     "language": "javascript",

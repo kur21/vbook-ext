@@ -4,7 +4,9 @@ function execute(key, page) {
     if (!page) {
         page = "1";
     }
-    let response = fetch(BASE_URL + "/search?s=" + key + "&page=" + page);
+    let newKey = key.replace(/\s/g, '%20');
+    let response = fetch(BASE_URL + "/search?s=" + newKey + "&page=" + page);
+    Console.log(BASE_URL + "/search?s=" + newKey + "&page=" + page);
     if (response.ok) {
         let doc = response.html();
         let next = doc.select(".pager").select("li.active + li").text();

@@ -129,18 +129,18 @@
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
             "description": "Xem ảnh trên trang Best Girl Sexy"
         },
-        // {
-        //     "name": "Say Hentai",
-        //     "author": "Kur",
-        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
-        //     "version": 1,
-        //     "type": "comic",
-        //     "tag": "nsfw",
-        //     "locale": "vi_VN",
-        //     "source": "https://sayhentai.me",
-        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
-        //     "description": "Đọc truyện trên trang Say Hentai"
-        // },
+        {
+            "name": "Say Hentai",
+            "author": "Kur",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
+            "version": 2,
+            "type": "comic",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://sayhentai.pro",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
+            "description": "Đọc truyện trên trang Say Hentai"
+        },
         // {
         //     "name": "QManga",
         //     "author": "Kur",
