@@ -16,8 +16,8 @@ function execute(url) {
         return Response.success({
             name: doc.select(".book_other h1 p").first().text(),
             cover: BASE_URL + doc.select(".book_info .book_avatar img").first().attr("src"),
-            author: 'Đang cập nhật',
-            description: doc.select("#book_detail p").first().text(),
+            author: 'Unknow',
+            description: doc.select("#book_detail p").text(),
             detail: doc.select(".book_other h1 p").first().text() +
             '<br>Lượt xem: ' + doc.select(".book_info_detail tbody tr:nth-child(3) td:last-child span").text() +
             '<br>Lượt theo dõi: ' + doc.select(".book_info_detail tbody tr:nth-child(4) td:last-child span").text(),
