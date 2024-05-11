@@ -1,37 +1,25 @@
-load('crypto.js');
-load('libs.js');
-load('src.js');
+load('config.js');
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch(src+'/api/list_item', {
-        method: "GET",
-        queries: {
-            page : page,
-            limit : '40',
-            sort : url,
-            type : 'all',
-            child : 'off',
-            status : 'all',
-            num_chapter : '0'
-        }
-    });
+    let response = fetch(url + `&child_protect=off&page=${page}`);
     if (response.ok) {
-        let doc = response.text();
-        let data = JSON.parse(decrypt_data(doc));
-        let allPage = Math.floor(data['total']/40);
-        const next = (page < allPage) ? (parseInt(page) + 1).toString() : null;
-        let list = [];
-        for(let i = 0; i < 40; i++){
-            let item = data[i];
-            list.push({
-                name: titleCase(item.name),
-                link: item.url+'-'+item.id_book,
-                cover: src+'/assets/tmp/book/avatar/'+item.avatar+'.jpg',
-                description: 'Chap '+ item.last_chapter,
-                host: src
-            })
-        }
-        return Response.success(list,next)
+        let res = response.json();
+        const data = res.data
+
+        let comiclist = [];
+        let next = ++page;
+
+        data.forEach(item => {
+            const info = JSON.parse(item.info)
+            comiclist.push({
+                name: capitalizeWords(info.name),
+                link: `${BASE_URL}/album/${info.url}-${info.id}`,
+                cover: `${BASE_URL}/assets/tmp/album/${info.avatar}`,
+                description: capitalizeFirstLetter(info.name),
+                host: BASE_URL
+            });
+        });
+        return Response.success(comiclist, next);
     }
     return null;
 }

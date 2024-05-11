@@ -1,12 +1,20 @@
-load('src.js');
+load('config.js');
 function execute() {
-    const doc = fetch(src).html();
-    const el = doc.select(".book_tags_content a");
-    const data = [];
-    el.forEach(e => data.push({
-           title: e.text(),
-           input: e.text(),
-           script: 'source.js'
-        }));
-    return Response.success(data);
+    
+    let response = fetch(API + '/data?data=album_tags');
+    if (response.ok) {
+        let data = response.json();
+        let genre_list = [];
+
+        Object.entries(data).forEach(([key, value]) => {
+            genre_list.push({
+                title: value['name'],
+                input: API + '/home_album_list?sort=update&tag=' + value['url'],
+                script: 'gen.js'
+            })
+        });
+
+        return Response.success(genre_list);
+    }
+    return null;
 }

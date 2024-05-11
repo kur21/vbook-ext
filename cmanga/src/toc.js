@@ -1,18 +1,24 @@
-load('src.js');
+load('config.js');
+
 function execute(url) {
-    let browser = Engine.newBrowser();
-    browser.launch(url, 10000) ;
-    let doc = browser.html();
-    browser.close();
-    let el = doc.select(".list_chapter a");
-    const data = [];
-    for (let i = el.size() - 1; i >= 0; i--) {
-        let e = el.get(i);
-        data.push({
-            name: e.text(),
-            url: e.attr("href"),
-            host: src
+    let arr_url = url.split('-')
+    let manga_id = arr_url.pop()
+
+    let response = fetch(API + '/chapter_list?album=' + manga_id);
+    if (response.ok) {
+        let data = response.json();
+        const list_chap = [];
+
+        data.forEach(chap => {
+            list_chap.push({
+                name: JSON.parse(chap.info).name,
+                url: API + '/chapter_image?chapter=' + chap.id_chapter,
+                host: BASE_URL
+            });
         })
+
+        return Response.success(list_chap);
     }
-    return Response.success(data);
+
+    return null;
 }

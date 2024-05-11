@@ -31,24 +31,24 @@
             "name": "Góc truyện tranh",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 5,
+            "version": 6,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://goctruyentranhvui2.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
             "description": "Đọc truyện trên trang Góc truyện tranh"
         },
-        // {
-        //     "name": "CManga",
-        //     "author": "Kur",
-        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-        //     "version": 3,
-        //     "type": "comic",
-        //     "locale": "vi_VN",
-        //     "source": "https://cmangaaf.com",
-        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
-        //     "description": "Đọc truyện trên trang CManga"
-        // },
+        {
+            "name": "CManga",
+            "author": "Kur",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://cmangaog.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
+            "description": "Đọc truyện trên trang CManga"
+        },
         {
             "name": "Everia",
             "author": "Kur",

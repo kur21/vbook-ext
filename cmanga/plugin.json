@@ -2,13 +2,13 @@
   "metadata": {
     "name": "CManga",
     "author": "Kur",
-    "version": 3,
-    "source": "https://cmangaaf.com",
-    "regexp": "(www.)?cmangaaf.com/[0-9a-z-]+",
-    "description": "Đọc truyện trên Cmanga",
-    "locale": "vi-VN",
+    "version": 1,
+    "source": "https://cmangaog.com/",
+    "regexp": "(www.)?cmanga[a-z]*.com/album/[^/]+/?$",
+    "description": "Đọc truyện trên trang CManga",
+    "locale": "vi_VN",
     "language": "javascript",
-    "type": "comic"
+	"type": "comic"
   },
   "script": {
     "home": "home.js",

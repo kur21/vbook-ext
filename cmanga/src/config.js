@@ -1,0 +1,17 @@
+let BASE_URL = "https://cmangaog.com";
+try {
+    if (CONFIG_URL) {
+        BASE_URL = CONFIG_URL;
+    }
+} catch (error) {
+}
+
+let API = BASE_URL + '/api'
+
+function capitalizeWords(str) {
+  return str.split(" ").map(word => word[0].toUpperCase() + word.slice(1)).join(" ");
+}
+
+function capitalizeFirstLetter(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}

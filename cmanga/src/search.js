@@ -1,15 +1,22 @@
-load('libs.js');
-load('src.js');
-function execute(key) {
-    let allItem = fetch(src+'/api/search?opt1='+key).json()
-    let data = [];
-    allItem.forEach(item => data.push({
-            name: titleCase(item.name),
-            link: item.url+'-'+item.id_book,
-            cover: src+'/assets/tmp/book/avatar/'+item.avatar+'.jpg',
-            description: 'Chap '+ item.last_chapter,
-            host: src
-        })
-    );
-    return Response.success(data)
+load('config.js');
+function execute(key, page) {
+    let response = fetch(API + "/search?string=" + key);
+    if (response.ok) {
+        let data = response.json();
+        let comiclist = [];
+
+        data.forEach(item => {
+            const info = JSON.parse(item.info)
+            comiclist.push({
+                name: capitalizeWords(info.name),
+                link: `${BASE_URL}/album/${info.url}-${info.id}`,
+                cover: `${BASE_URL}/assets/tmp/album/${info.avatar}`,
+                description: capitalizeFirstLetter(info.name),
+                host: BASE_URL
+            });
+        });
+        
+        return Response.success(comiclist);
+    }
+    return null;
 }

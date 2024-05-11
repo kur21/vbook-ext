@@ -1,36 +1,35 @@
 load('src.js');
 
 function execute(url) {
-    var browser = Engine.newBrowser();
-    browser.launch(url, 10000);
-    browser.callJs("var authorization = window.localStorage.getItem('Authorization'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
+    var response = fetch(url)
+    if(response.ok) {
+        var imgs = []
 
-    let doc = browser.html();
+        let doc = response.html()
+        let elm = doc.select('.main-images .image-section .img-block img')
 
-    var auth = doc.select("auth").text();
-    var comicId = doc.select("head meta[property='og:image']").attr("content").match(/[0-9]{10}/)[0];
-    var chapterNumber = url.slice(url.search('chuong-') + 7, url.length)
-
-    browser.close();
-
-    //check chapter
-    var imgs = [];
-    var el = doc.select(".viewer img");
-
-    if(el.length == 1) {
-        var response = fetch(`${BASE_URL}/api/chapter/auth?comicId=${comicId}&chapterNumber=${chapterNumber}`, {
-            method: "POST",
-            headers: {
-                Authorization: auth
-            },
-        })
-        if(response.ok) {
-            imgs = response.json().result.data
+        if(elm.empty) {
+            let doc_text = doc.toString()
+            let bookId = doc_text.match(/id: "(\d+)"/)[1];
+            let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${1}`, {
+                method : "POST",
+                headers : {
+                    Referer: url,
+                    Authorization: TOKEN
+                },
+            }).json();
+            Console.log(JSON.stringify(json.result.data))
+            imgs = json.result.data;
         }
-    } else {
-        el.forEach ( e => {
-            imgs.push(e.attr("src"));
+        
+        elm.forEach(e => {
+            imgs.push(e.attr('src'))
         })
+
+
+        return Response.success(imgs);
     }
-    return Response.success(imgs);
+
+    
+
 }

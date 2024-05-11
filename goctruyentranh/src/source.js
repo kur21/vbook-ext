@@ -2,12 +2,12 @@ load('src.js');
 
 function execute(url, page) {
     if(!page) page = '0';
-    let response = fetch(BASE_URL + '/api/comic/search/category',{
+    let new_url = BASE_URL + `/api/v2/search?p=${page}&categories%5B%5D=${url}&orders%5B%5D=updatedAt`
+    let response = fetch(new_url, {
         method : "GET",
-        queries : {
-            p : page,
-            value : url
-        }
+        headers : {
+            'Referer': BASE_URL + '/danh-sach'
+        },
     });
     if(response.ok){
         let json = response.json();
