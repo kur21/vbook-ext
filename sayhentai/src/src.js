@@ -1,1 +1,1 @@
-const BASE_URL="https://sayhentai.pro"
+const BASE_URL="https://sayhentai.co"
