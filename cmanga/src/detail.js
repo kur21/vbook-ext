@@ -16,7 +16,7 @@ function execute(url) {
         return Response.success({
             name: doc.select(".book_other h1 p").first().text(),
             cover: BASE_URL + doc.select(".book_info .book_avatar img").first().attr("src"),
-            author: 'Unknow',
+            author: 'Unknown',
             description: doc.select("#book_detail p").text(),
             detail: doc.select(".book_other h1 p").first().text() +
             '<br>Lượt xem: ' + doc.select(".book_info_detail tbody tr:nth-child(3) td:last-child span").text() +
