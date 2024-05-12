@@ -1,7 +1,7 @@
 load('src.js');
 function execute(url, page) {
     if (!page) page = 1;
-    let response = fetch(src+'/danh-sach',{
+    let response = fetch(BASE_URL+'/danh-sach',{
         method: "GET",
         queries: {
             sort : url,
@@ -15,12 +15,12 @@ function execute(url, page) {
         let data = [];
         el.forEach(e => data.push({
             name: e.select("a.text-ellipsis").text(),
-            link: src + e.select("a.text-ellipsis").attr("href"),
+            link: BASE_URL + e.select("a.text-ellipsis").attr("href"),
             cover: e.select(".cover").first().attr("style").split("'")[1],
             description: e.select("a.text-white").first().text(),
-            host: src
+            host: BASE_URL
         }))
-        return Response.success(data,(page+1).toString())
+        return Response.success(data,(++page).toString())
     }
     return null;
 }

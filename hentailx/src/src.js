@@ -1,1 +1,1 @@
-src="https://lxmanga.club"
+BASE_URL="https://lxmanga.club"

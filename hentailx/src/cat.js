@@ -17,9 +17,9 @@ function execute(url, page) {
             link: e.select("a.text-ellipsis").attr("href"),
             cover: e.select(".cover").first().attr("style").split("'")[1],
             description: e.select("a.text-white").first().text(),
-            host: src
+            host: BASE_URL
         }))
-        return Response.success(data,(page+1).toString())
+        return Response.success(data,(++page).toString())
     }
     return null;
 }

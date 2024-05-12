@@ -1,12 +1,35 @@
 load('src.js');
 function execute(url) {
-    let doc = fetch(url).html()
-    return Response.success({
-        name: doc.select(".mb-4 span").first().text(),
-        cover: doc.select(".cover").first().attr("style").split("'")[1],
-        author: doc.select(".grow a[href~=tac-gia]").first().text(),
-        description: doc.select(".py-4 > p").text(),
-        detail: 'Tác Giả: '+doc.select(".grow a[href~=tac-gia]").first().text() + '<br>Tình trạng: '+doc.select(".grow a[href~=danh-sach] span").first().text() + '<br>'+doc.select(".grow .mt-2").last().text(),
-        host: src
-    });
+    let response = fetch(url)
+    if(response.ok) {
+        let doc = response.html()
+        
+        let genres = [];
+        doc.select(".grow > .mt-2:first-child > span a").forEach(e => {
+            genres.push({
+                title: e.text(),
+                input: BASE_URL + e.attr('href'),
+                script: "cat.js"
+            });
+        });
+
+        return Response.success({
+            name: doc.select(".mb-4 span").first().text(),
+            cover: doc.select(".cover").first().attr("style").split("'")[1],
+            author: doc.select(".grow a[href~=tac-gia]").first().text(),
+            description: doc.select(".py-4 > p:nth-child(3)").text(),
+            detail: 'Tác Giả: '+doc.select(".grow a[href~=tac-gia]").first().text() + 
+            '<br>Tình trạng: '+doc.select(".grow a[href~=danh-sach] span").first().text() + 
+            '<br>'+doc.select(".grow .mt-2").last().text(),
+            genres: genres,
+            host: BASE_URL,
+            suggests: [
+                {
+                    title: "Truyện cùng tác giả",
+                    input: doc.select(".gap-3.grid").html(),
+                    script: "suggest.js"
+                }
+            ]
+        });
+    }
 }

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "LxHentai",
+    "name": "LxManga",
     "author": "Kur",
-    "version": 5,
+    "version": 6,
     "source": "https://lxmanga.club",
     "regexp": "(www.)?lxmanga.club/truyen/.*",
-    "description": "Đọc truyện trên trang LX Hentai",
+    "description": "Đọc truyện trên trang LX Manga",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "comic",
