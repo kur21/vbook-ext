@@ -15,7 +15,7 @@ function execute(url, page) {
                 name: capitalizeWords(info.name),
                 link: `${BASE_URL}/album/${info.url}-${info.id}`,
                 cover: `${BASE_URL}/assets/tmp/album/${info.avatar}`,
-                description: capitalizeFirstLetter(info.name),
+                description: `Chapter ${info.chapter.last}`,
                 host: BASE_URL
             });
         });

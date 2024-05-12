@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Say Hentai",
     "author": "Kur",
-    "version": 3,
+    "version": 4,
     "source": "https://sayhentai.co",
     "regexp": "(www.)?sayhentai.co/[^/]+.html",
     "description": "Đọc truyện trên trang Say Hentai",
