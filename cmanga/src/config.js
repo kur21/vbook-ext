@@ -9,7 +9,7 @@ try {
 let API = BASE_URL + '/api'
 
 function capitalizeWords(str) {
-  return str.split(" ").map(word => word[0].toUpperCase() + word.slice(1)).join(" ");
+  return str.replace('\\', '').split(" ").map(word => word[0] && word[0].toUpperCase() + word.slice(1)).join(" ");
 }
 
 function capitalizeFirstLetter(str) {
