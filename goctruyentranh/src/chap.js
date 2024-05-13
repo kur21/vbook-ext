@@ -7,18 +7,19 @@ function execute(url) {
 
         let doc = response.html()
         let elm = doc.select('.main-images .image-section .img-block img')
-
+        Console.log(elm.empty)
         if(elm.empty) {
             let doc_text = doc.toString()
             let bookId = doc_text.match(/id: "(\d+)"/)[1];
-            let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${1}`, {
+            let chapNumber = url.match(/chuong-(\d+)/)[1];
+            Console.log(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`)
+            let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`, {
                 method : "POST",
                 headers : {
                     Referer: url,
                     Authorization: TOKEN
                 },
             }).json();
-            Console.log(JSON.stringify(json.result.data))
             imgs = json.result.data;
         }
         

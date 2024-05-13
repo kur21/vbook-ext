@@ -9,7 +9,7 @@ function execute(url) {
         let data = response.json();
         const list_chap = [];
 
-        data.forEach(chap => {
+        data.reverse().forEach(chap => {
             list_chap.push({
                 name: JSON.parse(chap.info).name,
                 url: API + '/chapter_image?chapter=' + chap.id_chapter,
