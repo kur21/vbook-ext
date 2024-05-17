@@ -42,7 +42,7 @@
             "name": "CManga",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 6,
+            "version": 7,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://cmangaog.com",

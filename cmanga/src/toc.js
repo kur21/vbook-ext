@@ -4,14 +4,14 @@ function execute(url) {
     let arr_url = url.split('-')
     let manga_id = arr_url.pop()
 
-    let response = fetch(API + '/chapter_list?album=' + manga_id);
+    let response = fetch(API + '/chapter_list?limit=1000000&album=' + manga_id);
     if (response.ok) {
         let data = response.json();
         const list_chap = [];
 
         data.reverse().forEach(chap => {
             list_chap.push({
-                name: JSON.parse(chap.info).name,
+                name: 'Chapter ' + JSON.parse(chap.info).num,
                 url: API + '/chapter_image?chapter=' + chap.id_chapter,
                 host: BASE_URL
             });
