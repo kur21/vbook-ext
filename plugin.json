@@ -20,10 +20,10 @@
             "name": "Truyện QQ",
             "author": "Kur",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
-            "version": 7,
+            "version": 8,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://truyenqqq.com",
+            "source": "https://truyenqqviet.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/icon.png",
             "description": "Đọc truyện trên trang Truyện QQ"
         },
