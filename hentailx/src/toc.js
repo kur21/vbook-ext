@@ -7,8 +7,8 @@ function execute(url) {
         var e = el.get(i);
         data.push({
             name: e.select(".text-ellipsis").text(),
-            url: src + e.attr("href"),
-            host: src
+            url: BASE_URL + e.attr("href"),
+            host: BASE_URL
         })
     }
     return Response.success(data);

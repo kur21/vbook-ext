@@ -2,9 +2,9 @@
   "metadata": {
     "name": "LxManga",
     "author": "Kur",
-    "version": 6,
-    "source": "https://lxmanga.club",
-    "regexp": "(www.)?lxmanga.club/truyen/.*",
+    "version": 7,
+    "source": "https://lxmanga.icu",
+    "regexp": "(www.)?lxmanga.icu/truyen/.*",
     "description": "Đọc truyện trên trang LX Manga",
     "locale": "vi_VN",
     "language": "javascript",
