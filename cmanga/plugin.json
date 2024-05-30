@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "CManga",
-    "author": "Kur",
-    "version": 7,
+    "author": "Kou",
+    "version": 8,
     "source": "https://cmangaog.com/",
     "regexp": "(www.)?cmanga[a-z]*.com/album/[^/]+/?$",
     "description": "Đọc truyện trên trang CManga",

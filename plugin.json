@@ -1,14 +1,14 @@
 {
     "metadata": {
-        "author": "Kur",
+        "author": "Kou",
         "description": "No hentai no life~"
     },
     "data": [
         {
             "name": "LxManga",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-            "version": 7,
+            "version": 8,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -18,9 +18,9 @@
         },
         {
             "name": "Truyện QQ",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
-            "version": 8,
+            "version": 9,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://truyenqqviet.com",
@@ -29,9 +29,9 @@
         },
         {
             "name": "Góc truyện tranh",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 8,
+            "version": 9,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://goctruyentranhvui2.com",
@@ -40,9 +40,9 @@
         },
         {
             "name": "CManga",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 7,
+            "version": 8,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://cmangaog.com",
@@ -51,9 +51,9 @@
         },
         {
             "name": "Everia",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "gallery",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -63,9 +63,9 @@
         },
         {
             "name": "Best Girl Sexy",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/plugin.zip",
-            "version": 1,
+            "version": 2,
             "type": "gallery",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -75,9 +75,9 @@
         },
         {
             "name": "Say Hentai",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
-            "version": 5,
+            "version": 6,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -87,15 +87,26 @@
         },
         {
             "name": "XX Knix",
-            "author": "Kur",
+            "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/plugin.zip",
-            "version": 1,
+            "version": 2,
             "type": "gallery",
             "tag": "nsfw",
             "locale": "vi_VN",
             "source": "https://xx.knit.bid",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
             "description": "Xem ảnh trên trang XX Knix"
+        },
+        {
+            "name": "Net Truyện",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://nettruyenloli.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
+            "description": "Đọc truyện trên trang Net Truyện"
         }
     ]
 }

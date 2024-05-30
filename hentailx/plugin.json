@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "LxManga",
-    "author": "Kur",
-    "version": 7,
+    "author": "Kou",
+    "version": 8,
     "source": "https://lxmanga.icu",
     "regexp": "(www.)?lxmanga.icu/truyen/.*",
     "description": "Đọc truyện trên trang LX Manga",

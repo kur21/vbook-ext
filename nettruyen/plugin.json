@@ -1,15 +1,14 @@
 {
   "metadata": {
-    "name": "XX Knix",
+    "name": "Net Truyện",
     "author": "Kou",
-    "version": 2,
-    "source": "https://xx.knit.bid/",
-    "regexp": "(www.)?xx.knit.bid/.*",
-    "description": "Xem gái trên Knix",
+    "version": 1,
+    "source": "https://www.nettruyenloli.com",
+    "regexp": "(www.)?nettruyen[a-z]*.(com|vn|net)/manga/[^/]+/?$",
+    "description": "Đọc truyện trên trang Net Truyện",
     "locale": "vi_VN",
     "language": "javascript",
-    "type": "comic",
-    "tag": "nsfw"
+    "type": "comic"
   },
   "script": {
     "home": "home.js",

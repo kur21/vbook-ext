@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Góc Truyện Tranh",
-    "author": "Kur",
-    "version": 8,
+    "author": "Kou",
+    "version": 9,
     "source": "https://goctruyentranhvui2.com/",
     "regexp": "(www.)?goctruyentranhvui2.com/truyen/[0-9a-z-]+/?",
     "description": "Xem truyện tại Góc truyện tranh",
