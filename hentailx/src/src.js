@@ -1,1 +1,1 @@
-BASE_URL="https://lxmanga.icu"
+BASE_URL="https://lxmanga.cfd"
