@@ -96,17 +96,6 @@
             "source": "https://xx.knit.bid",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
             "description": "Xem ảnh trên trang XX Knix"
-        },
-        {
-            "name": "Net Truyện",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
-            "version": 1,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://nettruyenloli.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
-            "description": "Đọc truyện trên trang Net Truyện"
         }
     ]
 }
