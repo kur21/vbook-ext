@@ -1,5 +1,6 @@
 load('src.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let doc = fetch(url).html();
     let el = doc.select(".mb-4 > ul > a")
     const data = [];

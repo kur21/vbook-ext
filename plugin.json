@@ -8,7 +8,7 @@
             "name": "LxManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-            "version": 9,
+            "version": 10,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -31,7 +31,7 @@
             "name": "Góc truyện tranh",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 9,
+            "version": 10,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://goctruyentranhvui2.com",
@@ -42,7 +42,7 @@
             "name": "CManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 8,
+            "version": 9,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://cmangaog.com",
@@ -77,7 +77,7 @@
             "name": "Say Hentai",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
-            "version": 7,
+            "version": 8,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -96,6 +96,17 @@
             "source": "https://xx.knit.bid",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
             "description": "Xem ảnh trên trang XX Knix"
+        },
+        {
+            "name": "Truyện VN",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://truyenvn.me",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
+            "description": "Đọc truyện trên trang Truyện VN"
         }
     ]
 }

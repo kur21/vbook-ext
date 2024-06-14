@@ -1,6 +1,7 @@
 load('config.js');
 
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let arr_url = url.split('-')
     let manga_id = arr_url.pop()
 
