@@ -6,7 +6,7 @@ function execute(input) {
         books.push({
             name: e.select(".widget-title").first().text(),
             link: e.select("a").first().attr("href"),
-            cover: e.select("img").first().attr("data-lazy-src"),
+            cover: e.select("img").first().attr("data-lazy-src") || e.select("img").first().attr("src"),
             description: e.select(".post-on").text(),
             host: BASE_URL
         })

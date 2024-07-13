@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Truyện VN",
     "author": "Kou",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenvn.me",
     "regexp": "(www.)?truyenvn(hot|pro|moi|hay)?\\.[a-z]+/truyen-tranh/[^/]+/?$",
     "description": "Đọc truyện trên trang Truyện VN",
