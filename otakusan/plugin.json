@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Otakusan",
+    "author": "Kou",
+    "version": 1,
+    "source": "https://otakusan.net/",
+    "regexp": "https://otakusan.net/manga-detail/(\\d+)/[0-9a-z].+$",
+    "description": "Đọc truyện trên trang Otakusan",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

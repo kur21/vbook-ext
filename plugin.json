@@ -107,6 +107,17 @@
             "source": "https://truyenvn.cam",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
             "description": "Đọc truyện trên trang Truyện VN"
+        },
+        {
+            "name": "Otakusan",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/otakusan/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://otakusan.net",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/otakusan/icon.png",
+            "description": "Đọc truyện trên trang Otakusan"
         }
     ]
 }
