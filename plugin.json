@@ -101,7 +101,7 @@
             "name": "Truyện VN",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://truyenvn.cam",
