@@ -5,6 +5,7 @@ function execute(url) {
     // Console.log(url + '&v=' + 1723040847)
     // let response = fetch(url + '&v=' + time);
     let response = fetch(url);
+    Console.log(url)
     if (response.ok) {
         let data = response.json();
         return Response.success(data);
