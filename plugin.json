@@ -42,7 +42,7 @@
             "name": "CManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 11,
+            "version": 12,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://cmanga.net",

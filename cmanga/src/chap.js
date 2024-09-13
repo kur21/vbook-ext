@@ -8,7 +8,7 @@ function execute(url) {
         let response = fetch(url);
         if (response.ok) {
             let data = response.json();
-            return Response.success(data);
+            return Response.success(data.image);
         }
         return null;
     }
