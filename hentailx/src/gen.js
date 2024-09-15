@@ -1,16 +1,25 @@
 load('src.js');
 function execute(url, page) {
+    let status = '1,2' // 1: completed, 2: ongoing
+
     if (!page) page = 1;
+
+    if (url.includes('|')) {
+        status = url.split('|')[1]
+        url = url.split('|')[0]
+    }
+
     let response = fetch(BASE_URL+'/danh-sach',{
         method: "GET",
         queries: {
             sort : url,
-            page : page
+            page : page,
+            'filter[status]' : status
         }
     })
+
     if(response.ok){
         let doc = response.html();
-        //let next = doc.select("ul.gap-2").select("li.bg-white").text();
         let el = doc.select(".manga-vertical")
         let data = [];
         el.forEach(e => data.push({

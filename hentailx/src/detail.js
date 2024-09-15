@@ -22,6 +22,7 @@ function execute(url) {
             detail: 'Tác Giả: '+doc.select(".grow a[href~=tac-gia]").first().text() + 
             '<br>Tình trạng: '+doc.select(".grow a[href~=danh-sach] span").first().text() + 
             '<br>'+doc.select(".grow .mt-2").last().text(),
+            ongoing: doc.select(".grow a[href~=danh-sach] span").first().text() == 'Đang tiến hành',
             genres: genres,
             host: BASE_URL,
             suggests: [
