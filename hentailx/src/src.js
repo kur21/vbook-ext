@@ -1,1 +1,1 @@
-BASE_URL="https://lxmanga.click"
+BASE_URL="https://lxmanga.ink"
