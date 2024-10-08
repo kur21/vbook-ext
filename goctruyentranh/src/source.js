@@ -6,7 +6,8 @@ function execute(url, page) {
     let response = fetch(new_url, {
         method : "GET",
         headers : {
-            'Referer': BASE_URL + '/danh-sach'
+            Referer: BASE_URL + '/danh-sach',
+            Authorization: TOKEN
         },
     });
     if(response.ok){
