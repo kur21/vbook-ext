@@ -2,9 +2,9 @@
   "metadata": {
     "name": "CManga",
     "author": "Kou",
-    "version": 14,
-    "source": "https://cmanga03.com/",
-    "regexp": "(www.)?cmanga03.com/album/[^/]+/?$",
+    "version": 15,
+    "source": "https://cmangaop.com/",
+    "regexp": "(www.)?cmangaop.com/album/[^/]+/?$",
     "description": "Đọc truyện trên trang CManga",
     "locale": "vi_VN",
     "language": "javascript",
