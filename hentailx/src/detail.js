@@ -6,7 +6,7 @@ function execute(url) {
         let doc = response.html()
         
         let genres = [];
-        doc.select(".grow > .mt-2:first-child > span a").forEach(e => {
+        doc.select(".justify-between .flex > .grow > .mt-2:first-child > span a").forEach(e => {
             genres.push({
                 title: e.text(),
                 input: BASE_URL + e.attr('href'),
@@ -18,7 +18,7 @@ function execute(url) {
             name: doc.select(".mb-4 span").first().text(),
             cover: doc.select(".cover").first().attr("style").split("'")[1],
             author: doc.select(".grow a[href~=tac-gia]").first().text(),
-            description: doc.select(".py-4 > p:nth-child(3)").text(),
+            description: doc.select(".pt-4 > p:nth-child(3)").text(),
             detail: 'Tác Giả: '+doc.select(".grow a[href~=tac-gia]").first().text() + 
             '<br>Tình trạng: '+doc.select(".grow a[href~=danh-sach] span").first().text() + 
             '<br>'+doc.select(".grow .mt-2").last().text(),

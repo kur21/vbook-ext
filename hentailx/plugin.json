@@ -2,7 +2,7 @@
   "metadata": {
     "name": "LxManga",
     "author": "Kou",
-    "version": 15,
+    "version": 16,
     "source": "https://lxmanga.online",
     "regexp": "(www.)?lxmanga.online/truyen/.*",
     "description": "Đọc truyện trên trang LX Manga",

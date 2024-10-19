@@ -15,7 +15,7 @@ function execute(url, page) {
         el.forEach(e => data.push({
             name: e.select("a.text-ellipsis").text(),
             link: e.select("a.text-ellipsis").attr("href"),
-            cover: e.select(".cover").first().attr("style").split("'")[1],
+            cover: e.select(".cover").first().attr("data-bg"),
             description: e.select("a.text-white").first().text(),
             host: BASE_URL
         }))

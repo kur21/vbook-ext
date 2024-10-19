@@ -10,7 +10,7 @@ function execute(key, page) {
         el.forEach(e => data.push({
             name: e.select(".p-2 > a ").text(),
             link: BASE_URL + e.select(".p-2 > a").attr("href"),
-            cover: e.select(".cover").first().attr("style").split("'")[1],
+            cover: e.select(".cover").first().attr("data-bg"),
             description: e.select("a.text-white").first().text(),
             host: BASE_URL
         }))
