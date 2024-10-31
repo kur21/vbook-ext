@@ -3,7 +3,7 @@ function execute(url) {
     var doc = request.html();
     var dataChapterId = doc.select("#dataChapterId").attr("value");
 
-    var json = fetch("https://otakusan.net/Manga/UpdateView", {
+    var json = fetch("https://otakusan1.net/Manga/UpdateView", {
     method: "POST", // GET, POST, PUT, DELETE, PATCH
     headers: {
         "cookie": request.cookie(),

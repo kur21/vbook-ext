@@ -20,10 +20,6 @@ function execute() {
         input: "https://everia.club/category/korea",
         script: "gen.js"
     }, {
-        title: "Thailand",
-        input: "https://everia.club/category/thailand",
-        script: "gen.js"
-    }, {
         title: "Chinese",
         input: "https://everia.club/category/chinese",
         script: "gen.js"

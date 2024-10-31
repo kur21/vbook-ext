@@ -1,10 +1,10 @@
 function execute() {
     return Response.success([
 
-        {title: "Manga", input:"https://otakusan.net/Manga/MangaNewest", script: "gen.js"},
-        {title: "Manhua", input:"https://otakusan.net/Manga/ManhuaNewest", script: "gen.js"},
-        {title: "Manhwa", input:"https://otakusan.net/Manga/ManhwaNewest", script: "gen.js"},
-        {title: "Light Novel", input:"https://otakusan.net/LightNovel/Newest", script: "gen.js"},
+        {title: "Manga", input:"https://otakusan1.net/Manga/MangaNewest", script: "gen.js"},
+        {title: "Manhua", input:"https://otakusan1.net/Manga/ManhuaNewest", script: "gen.js"},
+        {title: "Manhwa", input:"https://otakusan1.net/Manga/ManhwaNewest", script: "gen.js"},
+        {title: "Light Novel", input:"https://otakusan1.net/LightNovel/Newest", script: "gen.js"},
         //---------------------//
         {title: "4-Koma", input:"GenreDetail/41", script: "getgenre.js"},
         {title: "Action", input:"GenreDetail/26", script: "getgenre.js"},

@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Otakusan",
     "author": "Kou",
-    "version": 1,
-    "source": "https://otakusan.net/",
-    "regexp": "https://otakusan.net/manga-detail/(\\d+)/[0-9a-z].+$",
+    "version": 2,
+    "source": "https://otakusan1.net/",
+    "regexp": "https://otakusan1.net/manga-detail/(\\d+)/[0-9a-z].+$",
     "description": "Đọc truyện trên trang Otakusan",
     "local": "vi-VN",
     "language": "javascript",

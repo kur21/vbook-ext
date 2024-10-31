@@ -7,7 +7,7 @@ function execute(url) {
         listChapter.push({
             name: ct.select(".read-chapter").get(1).select("a").attr("alt"),
             url: ct.select(".read-chapter").get(1).select("a").attr("href"),
-            host: "https://otakusan.net"
+            host: "https://otakusan1.net"
         })
     }
     return Response.success(listChapter);

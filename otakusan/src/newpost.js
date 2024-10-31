@@ -17,7 +17,7 @@ function execute(url, page) {
         link: book.select(".mdl-card__title a").attr("href"),
         cover: book.select(".mdl-card__title img").attr("src"),
         description: book.select(".btn-primary").last().text(),
-        host: "https://otakusan.net"
+        host: "https://otakusan1.net"
     }))
     if (listBook.length == 0) next = ""; 
     else next = (parseInt(page) + 1).toString();

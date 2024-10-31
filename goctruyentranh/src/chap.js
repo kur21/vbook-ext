@@ -13,7 +13,6 @@ function execute(url) {
             let doc_text = doc.toString()
             let bookId = doc_text.match(/id: "(\d+)"/)[1];
             let chapNumber = url.match(/chuong-(\d+)/)[1];
-            Console.log(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`)
             let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`, {
                 method : "POST",
                 headers : {
