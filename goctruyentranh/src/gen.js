@@ -6,7 +6,7 @@ function execute(url, page) {
         method : "GET",
         headers : {
             Referer: BASE_URL + '/danh-sach',
-            Authorization: TOKEN
+            Authorization: TOKEN,
         },
     });
     if(response.ok){

@@ -8,11 +8,11 @@
             "name": "LxManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-            "version": 17,
+            "version": 18,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
-            "source": "https://lxmanga.site",
+            "source": "https://lxmanga.store",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/icon.png",
             "description": "Đọc truyện trên trang LxManga"
         },
