@@ -5,6 +5,42 @@
     },
     "data": [
         {
+            "name": "XX Knix",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/plugin.zip",
+            "version": 3,
+            "type": "gallery",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://xx.knit.bid",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
+            "description": "Xem ảnh trên trang XX Knix"
+        },
+        {
+            "name": "Everia",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/plugin.zip",
+            "version": 4,
+            "type": "gallery",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://everia.club",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/icon.png",
+            "description": "Xem ảnh trên trang Everia"
+        },
+        {
+            "name": "Best Girl Sexy",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/plugin.zip",
+            "version": 3,
+            "type": "gallery",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://bestgirlsexy.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
+            "description": "Xem ảnh trên trang Best Girl Sexy"
+        },
+        {
             "name": "LxManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
@@ -50,30 +86,6 @@
             "description": "Đọc truyện trên trang CManga"
         },
         {
-            "name": "Everia",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/plugin.zip",
-            "version": 4,
-            "type": "gallery",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://everia.club",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/icon.png",
-            "description": "Xem ảnh trên trang Everia"
-        },
-        {
-            "name": "Best Girl Sexy",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/plugin.zip",
-            "version": 3,
-            "type": "gallery",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://bestgirlsexy.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
-            "description": "Xem ảnh trên trang Best Girl Sexy"
-        },
-        {
             "name": "Say Hentai",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
@@ -84,18 +96,6 @@
             "source": "https://sayhentai.one",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
             "description": "Đọc truyện trên trang Say Hentai"
-        },
-        {
-            "name": "XX Knix",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/plugin.zip",
-            "version": 3,
-            "type": "gallery",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://xx.knit.bid",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
-            "description": "Xem ảnh trên trang XX Knix"
         },
         {
             "name": "Truyện VN",
@@ -118,6 +118,28 @@
             "source": "https://otakusan1.net",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/otakusan/icon.png",
             "description": "Đọc truyện trên trang Otakusan"
+        },
+        {
+            "name": "Cứu Truyện",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/plugin.zip",
+            "version": 1,
+            "source": "https://cuutruyen.net",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/icon.png",
+            "description": "Đọc truyện trên trang Cứu Truyện",
+            "type": "comic",
+            "locale": "vi_VN"
+        },
+        {
+            "name": "Truyện GG",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/plugin.zip",
+            "version": 1,
+            "source": "https://truyengg.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/icon.png",
+            "description": "Đọc truyện trên trang Truyện GG",
+            "type": "comic",
+            "locale": "vi_VN"
         }
     ]
 }
