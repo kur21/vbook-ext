@@ -8,7 +8,7 @@ function execute(url) {
 
         let doc = response.html()
         let elm = doc.select('.main-images .image-section .img-block img')
-        Console.log(elm.empty)
+        Console.log(elm)
         if(elm.empty) {
             let doc_text = doc.toString()
             let bookId = doc_text.match(/id: "(\d+)"/)[1];
@@ -24,9 +24,10 @@ function execute(url) {
         }
         
         elm.forEach(e => {
-            imgs.push(e.attr('src'))
+            let url = e.attr('src')
+            url = url.includes('https') ? url : BASE_URL + url
+            imgs.push(url)
         })
-
 
         return Response.success(imgs);
     }

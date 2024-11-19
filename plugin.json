@@ -78,10 +78,10 @@
             "name": "CManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 16,
+            "version": 17,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://cmanga1.com",
+            "source": "https://cmangal.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
             "description": "Đọc truyện trên trang CManga"
         },
