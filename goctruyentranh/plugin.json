@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Góc Truyện Tranh",
     "author": "Kou",
-    "version": 14,
+    "version": 15,
     "source": "https://goctruyentranhvui6.com/",
-    "regexp": "(www.)?goctruyentranhvui6?.com/truyen/[0-9a-z-]+/?",
+    "regexp": "(www.)?goctruyentranhvui6.com/truyen/[0-9a-z-]+/?",
     "description": "Xem truyện tại Góc truyện tranh",
     "locale": "vi-VN",
     "language": "javascript",
