@@ -15,8 +15,8 @@ function execute(url) {
             let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`, {
                 method : "POST",
                 headers : {
-                    Referer: url,
-                    Authorization: TOKEN
+                    Referer: BASE_URL,
+                    Authorization: TOKEN,
                 },
             }).json();
             imgs = json.result.data;

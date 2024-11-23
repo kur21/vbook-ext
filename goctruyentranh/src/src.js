@@ -1,2 +1,2 @@
-const BASE_URL = "https://goctruyentranhvui7.com"
+const BASE_URL = "https://goctruyentranhvui6.com"
 const TOKEN = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJC4bqhaSBIb-G6oWkgVGnDqm4gVHLGsOG7n25nIiwiY29taWNJZHMiOltdLCJyb2xlSWQiOm51bGwsImdyb3VwSWQiOm51bGwsImFkbWluIjpmYWxzZSwicmFuayI6MSwicGVybWlzc2lvbiI6W10sImlkIjoiMDAwMDM2MjY3NSIsInRlYW0iOmZhbHNlLCJpYXQiOjE3MzA5MTcyNzgsImVtYWlsIjoibnVsbCJ9.wUMio5cka7M01tzVgupK_cTZH-uB-5lt_l7cEelHHqjaBQKjz81z655d2POCbmfxcarfmtVg4_nNVW1yq_C4dA"
