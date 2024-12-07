@@ -9,6 +9,7 @@ function execute(url, page) {
             Authorization: TOKEN,
         },
     });
+    
     if(response.ok){
         let json = response.json();
         let allItem = json.result.data;
@@ -19,8 +20,8 @@ function execute(url, page) {
             allItem.forEach(item => data.push({
                 name: item.name,
                 link: BASE_URL + '/truyen/'+item.nameEn,
-                cover: item.photo,
-                description: 'Chap '+item.chapterLatest[0],
+                cover: item.photo.includes('http') ? item.photo : BASE_URL + item.photo,
+                description: `Chap ${item.chapterLatest[0]} - ${item.chapterLatestDate[0]}`,
                 host: BASE_URL
             }))
             return Response.success(data,next)
