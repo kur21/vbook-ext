@@ -109,17 +109,6 @@
             "description": "Đọc truyện trên trang Truyện VN"
         },
         {
-            "name": "Otakusan",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/otakusan/plugin.zip",
-            "version": 2,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://otakusan1.net",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/otakusan/icon.png",
-            "description": "Đọc truyện trên trang Otakusan"
-        },
-        {
             "name": "Cứu Truyện",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/plugin.zip",
