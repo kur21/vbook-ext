@@ -1,1 +1,1 @@
-BASE_URL="https://lxmanga.store"
+BASE_URL="https://lxmanga.live"
