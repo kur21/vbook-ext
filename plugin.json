@@ -101,10 +101,10 @@
             "name": "Truyện VN",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
-            "version": 9,
+            "version": 10,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://truyenvn.la",
+            "source": "https://truyenvn.li",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
             "description": "Đọc truyện trên trang Truyện VN"
         },
