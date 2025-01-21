@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 
 function execute(url, page) {
     if (!page) {
@@ -19,7 +19,7 @@ function execute(url, page) {
                 name: e.select("h3 a").first().text(),
                 link: e.select("h3 a").first().attr("href"),
                 cover: cover,
-                description: e.select(".chapter").first().text(),
+                description: e.select(".chapter").first().text() + " - " + e.select(".post-on").text(),
                 host: BASE_URL
             });
         })

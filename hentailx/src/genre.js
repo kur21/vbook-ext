@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 function execute() {
     const doc = Http.get(BASE_URL).html();
     const el = doc.select(".mt-2 a");

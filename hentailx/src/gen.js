@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 function execute(url, page) {
     let status = '1,2' // 1: completed, 2: ongoing
 
@@ -25,7 +25,10 @@ function execute(url, page) {
         el.forEach(e => data.push({
             name: e.select("a.text-ellipsis").text(),
             link: BASE_URL + e.select("a.text-ellipsis").attr("href"),
-            cover: e.select(".cover").first().attr("data-bg"),
+            cover: {
+                Referer: BASE_URL,
+                link: e.select(".cover").first().attr("data-bg")
+            },
             description:  e.select("a.text-white").first().text(),
             host: BASE_URL
         }))

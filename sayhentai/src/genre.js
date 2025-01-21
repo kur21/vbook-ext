@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 
 function execute() {
     let response = fetch(BASE_URL + "/genre");

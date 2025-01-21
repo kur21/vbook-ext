@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 function execute(input) {
     let doc = Html.parse(input);
     Console.log(doc)

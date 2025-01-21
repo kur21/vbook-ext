@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 
 function execute() {
     return Response.success([

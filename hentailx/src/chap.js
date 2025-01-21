@@ -1,4 +1,4 @@
-load('src.js');
+load('config.js');
 function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     var doc = fetch(url).html();
