@@ -18,7 +18,7 @@ function execute(url, page) {
                 link: e.select(".book_name a").first().attr("href"),
                 description: `${e.select(".last_chapter").text()} - ${e.select("span.time-ago").text()}`,
                 cover: cover,
-                host: BASE_URL
+                host: BASE_URL,
             });
         })
 

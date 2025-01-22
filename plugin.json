@@ -44,7 +44,7 @@
             "name": "LxManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-            "version": 20,
+            "version": 21,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
@@ -56,7 +56,7 @@
             "name": "Truyện QQ",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
-            "version": 14,
+            "version": 15,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://truyenqqto.com",
@@ -129,6 +129,17 @@
             "source": "https://truyengg.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/icon.png",
             "description": "Đọc truyện trên trang Truyện GG"
+        },
+        {
+            "name": "Đọc Truyện 3Q",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://doctruyen3qui.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
+            "description": "Đọc truyện trên trang Đọc Truyện 3Q"
         }
     ]
 }
