@@ -133,12 +133,12 @@
         {
             "name": "Đọc Truyện 3Q",
             "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
             "version": 1,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://doctruyen3qui.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
             "description": "Đọc truyện trên trang Đọc Truyện 3Q"
         }
     ]
