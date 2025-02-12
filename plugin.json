@@ -67,10 +67,10 @@
             "name": "Góc truyện tranh",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 22,
+            "version": 23,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://goctruyentranhvui9.com",
+            "source": "https://goctruyentranhvuiaa.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
             "description": "Đọc truyện trên trang Góc truyện tranh"
         },
@@ -134,10 +134,10 @@
             "name": "Đọc Truyện 3Q",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://doctruyen3qui.com",
+            "source": "https://doctruyen3qui2.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
             "description": "Đọc truyện trên trang Đọc Truyện 3Q"
         }
