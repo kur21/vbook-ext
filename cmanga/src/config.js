@@ -1,4 +1,4 @@
-let BASE_URL = "https://cmangav.com";
+let BASE_URL = "https://cmangaob.com";
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;
