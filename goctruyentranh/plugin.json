@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Góc Truyện Tranh",
     "author": "Kou",
-    "version": 25,
-    "source": "https://goctruyentranhvui15.com/",
+    "version": 26,
+    "source": "https://goctruyentranhvui16.com/",
     "regexp": "(www.)?goctruyentranhvui[a-z0-9]+.com/truyen/[0-9a-z-]+/?",
     "description": "Xem truyện tại Góc truyện tranh",
     "locale": "vi-VN",
