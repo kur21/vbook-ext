@@ -8,29 +8,38 @@ function execute(url) {
 
         let doc = response.html()
         let elm = doc.select('.main-images .image-section .img-block img')
+
         if(elm.empty) {
             let doc_text = doc.toString()
             let bookId = doc_text.match(/id: "(\d+)"/)[1];
             let chapNumber = url.match(/chuong-(\d+)/)[1];
-            let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`, {
-                method : "POST",
-                headers : {
-                    Referer: BASE_URL,
-                    Authorization: TOKEN,
-                },
-            }).json();
-            imgs = json.result.data;
-        }
-        
-        elm.forEach(e => {
-            let url = e.attr('src')
-            imgs.push(url)
-        })
+            let jsonString = doc_text.match(/chapterJson: `(.*?)`/)[1];
+            let jsonParsed = jsonString && JSON.parse(jsonString);
+            let chaps = jsonParsed && jsonParsed.body.result.data
 
-        let newImgs = []
+            if(chaps && chaps.length > 0) {
+                imgs = chaps;
+            } else {
+                let json = fetch(`${BASE_URL}/api/chapter/auth?comicId=${bookId}&chapterNumber=${chapNumber}`, {
+                    method : "POST",
+                    headers : {
+                        Referer: BASE_URL,
+                        Authorization: TOKEN,
+                    },
+                }).json();
+                imgs = json.result.data;
+            }
+        } else {
+            elm.forEach(e => {
+                let url = e.attr('src')
+                imgs.push(url)
+            })
+        }
+
+        var newImgs = []
         imgs.forEach(img => {
             newImgs.push({
-                referer: BASE_URL,
+                script: "image.js",
                 link: img.includes('https') ? img : `${BASE_URL}${img}`
             })
         })
