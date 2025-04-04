@@ -6,7 +6,7 @@ function execute(url) {
         let doc = response.html();
         let imgs = [];
         doc.select(".list-image-detail .page-chapter[id^=page_] img").forEach(e => {
-            let url = e.attr("data-original") || e.attr("src");
+            let url = e.attr("src") || e.attr("data-original");
             if(url) imgs.push(url);
         });
         return Response.success(imgs);

@@ -1,8 +1,8 @@
 load('config.js');
 function execute(key, page) {
-    let response = fetch(API + "/search?string=" + key);
+    let response = fetch(API + "/home_album_list?type=search&string=" + key);
     if (response.ok) {
-        let data = response.json();
+        let data = response.json().data;
         let comiclist = [];
 
         data.forEach(item => {

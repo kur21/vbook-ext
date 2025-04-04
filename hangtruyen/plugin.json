@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "name": "CManga",
+    "name": "Hàng Truyện",
     "author": "Kou",
-    "version": 25,
-    "source": "https://cmangaax.com/",
-    "regexp": "(www.)?cmanga[a-z].com/album/[^/]+/?$",
-    "description": "Đọc truyện trên trang CManga",
+    "version": 1,
+    "source": "https://hangtruyen.net",
+    "regexp": "(www.)?hangtruyen*.*?/truyen-tranh/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang Hang Truyện",
     "locale": "vi_VN",
     "language": "javascript",
-	"type": "comic"
+    "type": "comic"
   },
   "script": {
     "home": "home.js",

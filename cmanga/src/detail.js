@@ -6,10 +6,10 @@ function execute(url) {
         let doc = response.html();
         Console.log(doc)
         let genres = [];
-        doc.select(".book_other .kind a").forEach(e => {
+        doc.select(".book_other .kind span").forEach(e => {
             genres.push({
                 title: e.text(),
-                input: API + '/home_album_list?sort=update&tag=' + e.attr('href').replace('/category/', ''),
+                input: '#',
                 script: "gen.js"
             });
         });
@@ -18,10 +18,10 @@ function execute(url) {
             name: doc.select(".book_other h1 p").first().text(),
             cover: BASE_URL + doc.select(".book_info .book_avatar img").first().attr("src"),
             author: 'Unknown',
-            description: doc.select("#book_detail p").text(),
+            description: doc.select("#book_detail").text(),
             detail: doc.select(".book_other h1 p").first().text() +
-            '<br>Lượt xem: ' + doc.select(".book_info_detail tbody tr:nth-child(3) td:last-child span").text() +
-            '<br>Lượt theo dõi: ' + doc.select(".book_info_detail tbody tr:nth-child(4) td:last-child span").text(),
+            '<br>Lượt xem: ' + doc.select(".book_info_detail tbody tr span.total_view").text() +
+            '<br>Lượt theo dõi: ' + doc.select(".book_info_detail tbody tr span.bookmark").text(),
             host: BASE_URL,
             ongoing: true,
             genres: genres

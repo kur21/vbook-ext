@@ -78,7 +78,7 @@
             "name": "CManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 24,
+            "version": 25,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://cmangaax.com",
@@ -134,12 +134,23 @@
             "name": "Đọc Truyện 3Q",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
-            "version": 5,
+            "version": 6,
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://doctruyen3qui.pro",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
             "description": "Đọc truyện trên trang Đọc Truyện 3Q"
+        },
+        {
+            "name": "Hang Truyện",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hangtruyen/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://hangtruyen.net",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
+            "description": "Đọc truyện trên trang Hang Truyện"
         }
     ]
 }
