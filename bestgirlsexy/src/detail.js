@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url) {
     const doc = Http.get(url).html()
 
@@ -16,7 +18,7 @@ function execute(url) {
         author: "Đang cập nhật",
         description: doc.select(".elementor-widget-container p:nth-child(5)").first().text(),
         detail: doc.select(".elementor-widget-container p:nth-child(4)").first().text(),
-        host: "https://bestgirlsexy.com",
+        host: BASE_URL,
         ongoing: false,
         genres: genres,
         suggests: [

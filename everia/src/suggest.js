@@ -1,3 +1,6 @@
+
+load('config.js');
+
 function execute(input) {
     let doc = Html.parse(input);
     let books = [];
@@ -7,7 +10,7 @@ function execute(input) {
             link: e.select(".related-post-title a").first().attr("href"),
             cover: e.select(".related-thumb img").first().attr("src"),
             description: e.select("time.published").text(),
-            host: 'https://everia.club'
+            host: BASE_URL
         })
     });
 

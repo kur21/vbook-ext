@@ -1,10 +1,12 @@
+load('config.js');
+
 function execute(url) {
     var doc = Http.get(url).html();
     const data = [
         {
             name: doc.select("h1.single-post-title.entry-title").first().text(),
             url: url,
-            host: "https://everia.club"
+            host: BASE_URL
         }
     ];
 

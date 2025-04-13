@@ -1,35 +1,18 @@
+load('config.js');
+
 function execute() {
-    return Response.success([{
-        title: "Tất cả thể loại",
-        input: "https://bestgirlsexy.com",
-        script: "gen.js"
-    }, {
-        title: "Cosplay",
-        input: "https://bestgirlsexy.com/cosplay",
-        script: "gen.js"
-    }, {
-        title: "Korean",
-        input: "https://bestgirlsexy.com/korean",
-        script: "gen.js"
-    }, {
-        title: "Europe",
-        input: "https://bestgirlsexy.com/eu-girls",
-        script: "gen.js"
-    }, {
-        title: "Japan",
-        input: "https://bestgirlsexy.com/japan",
-        script: "gen.js"
-    }, {
-        title: "China",
-        input: "https://bestgirlsexy.com/china",
-        script: "gen.js"
-    }, {
-        title: "AIModel",
-        input: "https://bestgirlsexy.com/aimodel",
-        script: "gen.js"
-    }, {
-        title: "Cosplay",
-        input: "https://bestgirlsexy.com/cosplay",
-        script: "gen.js"
-    }]);
+    const doc = Http.get(BASE_URL).html();
+    const el = doc.select(".elementor-nav-menu .menu-item-object-category a");
+    const data = [];
+    for (var i = 0; i < el.size()-1; i++) {
+        var e = el.get(i);
+        data.push({
+           title: e.text(),
+           input: e.attr('href'),
+           script: 'gen.js'
+        });
+    }
+    
+    
+    return Response.success(data);
 }

@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url) {
     const doc = Http.get(url).html()
 
@@ -16,7 +18,7 @@ function execute(url) {
         author: "Đang cập nhật",
         description: doc.select("h1.single-post-title.entry-title").first().text(),
         detail: doc.select("h1.single-post-title.entry-title").first().text(),
-        host: "https://everia.club",
+        host: BASE_URL,
         ongoing: true,
         genres: genres,
         suggests: [

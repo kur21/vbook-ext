@@ -1,6 +1,8 @@
+load('config.js');
+
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get("https://bestgirlsexy.com/page/" + page + '/' ).params({"s": key}).html();
+    const doc = Http.get(BASE_URL + "/page/" + page + '/' ).params({"s": key}).html();
 
     var next = doc.select("nav.elementor-pagination").select("span.page-numbers.current + a").text().replace("Page", "")
 
@@ -15,7 +17,7 @@ function execute(key, page) {
             link: e.select("h3.elementor-post__title a").first().attr("href"),
             cover: imgCv,
             description: e.select("span.elementor-post-date").first().text(),
-            host: "https://bestgirlsexy.com"
+            host: BASE_URL
         })
     }
 

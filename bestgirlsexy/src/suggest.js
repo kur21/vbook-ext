@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(input) {
     let doc = Html.parse(input);
     let books = [];
@@ -7,7 +9,7 @@ function execute(input) {
             link: e.attr("href"),
             cover: e.select(".elementor-portfolio-item__img img").attr("src"),
             description: e.select("time").text(),
-            host: 'https://xx.knit.bid'
+            host: BASE_URL
         })
     });
 

@@ -1,31 +1,33 @@
+load('config.js');
+
 function execute() {
     return Response.success([{
         title: "Tất cả thể loại",
-        input: "https://everia.club",
+        input: BASE_URL,
         script: "gen.js"
     }, {
         title: "Gravure",
-        input: "https://everia.club/category/gravure",
+        input: BASE_URL + "/category/gravure",
         script: "gen.js"
     }, {
-        title: "Aidol",
-        input: "https://everia.club/category/aidol",
-        script: "gen.js"
-    }, {
-        title: "Magazine",
-        input: "https://everia.club/category/magazin",
+        title: "Japan",
+        input: BASE_URL + "/category/japan",
         script: "gen.js"
     }, {
         title: "Korea",
-        input: "https://everia.club/category/korea",
+        input: BASE_URL + "/category/korea",
         script: "gen.js"
     }, {
         title: "Chinese",
-        input: "https://everia.club/category/chinese",
+        input: BASE_URL + "/category/chinese",
+        script: "gen.js"
+    }, {
+        title: "Thailand",
+        input: BASE_URL + "/category/thailand",
         script: "gen.js"
     }, {
         title: "Cosplay",
-        input: "https://everia.club/category/cosplay",
+        input: BASE_URL + "/category/cosplay",
         script: "gen.js"
     }]);
 }

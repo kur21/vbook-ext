@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url, page) {
     if (!page) page = '1';
     const doc = Http.get(url + '/page/' + page).html()
@@ -18,7 +20,7 @@ function execute(url, page) {
             link: e.select("h2.blog-entry-title.entry-title a").first().attr("href"),
             cover: imgCv,
             description: "",
-            host: "https://everia.club"
+            host: BASE_URL
         })
     }
 

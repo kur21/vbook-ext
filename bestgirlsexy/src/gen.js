@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url, page) {
 
     if (!page) page = '1';
@@ -16,7 +18,7 @@ function execute(url, page) {
             link: e.select("h3.elementor-post__title a").first().attr("href"),
             cover: imgCv,
             description: e.select("span.elementor-post-date").first().text(),
-            host: "https://bestgirlsexy.com"
+            host: BASE_URL
         })
     }
 

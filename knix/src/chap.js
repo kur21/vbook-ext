@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url) {
     var doc = Http.get(url).html();
     var el = doc.select("section#main article.article-content .item-image img");
@@ -8,7 +10,7 @@ function execute(url) {
         if (!img) {
             img = e.attr("src");
         }
-        data.push('https://xx-media.knit.bid' + img);
+        data.push(BASE_URL + img);
     }
     return Response.success(data);
 }
