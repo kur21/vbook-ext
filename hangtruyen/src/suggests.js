@@ -6,7 +6,7 @@ function execute(input) {
         books.push({
             name: e.select("h3.m-name a").text(),
             link: e.select("h3.m-name a").attr("href"),
-            cover: e.select(".p-thumb .img-poster").attr("data-src") || e.select(".p-thumb .img-poster").attr("data-original"),
+            cover: e.select(".p-thumb img").attr("data-src") || e.select(".p-thumb img").attr("data-original"),
             description: e.select(".chapter a").attr("title"),
             host: BASE_URL
         })

@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Say Hentai",
     "author": "Kou",
-    "version": 13,
-    "source": "https://sayhentai.ink",
-    "regexp": "(www.)?sayhentai.ink/[^/]+.html",
+    "version": 14,
+    "source": "https://sayhentai.one",
+    "regexp": "(www.)?sayhentai.one/[^/]+.html",
     "description": "Đọc truyện trên trang Say Hentai",
     "locale": "vi_VN",
     "language": "javascript",

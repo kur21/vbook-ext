@@ -14,7 +14,7 @@ function execute(key, page) {
             const name = ct.select(".m-name a").text();
             const link = BASE_URL + ct.select(".m-name a").attr("href");
             const description = `${ct.select(".list-chaps li:first-child a").attr("title")} - ${ct.select(".list-chaps li:first-child a span").text()}`
-            const cover = e.select(".p-thumb img.img-poster").attr("data-src") || e.select(".p-thumb img.img-poster").attr("data-original");
+            const cover = e.select(".p-thumb img").attr("data-src") || e.select(".p-thumb img").attr("data-original");
             const host = BASE_URL;
 
             novelList.push({ name, link, description, cover, host });

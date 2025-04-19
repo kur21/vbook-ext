@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Hàng Truyện",
     "author": "Kou",
-    "version": 1,
-    "source": "https://hangtruyen.net",
+    "version": 2,
+    "source": "https://hangtruyen.org",
     "regexp": "(www.)?hangtruyen*.*?/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Hang Truyện",
     "locale": "vi_VN",
