@@ -2,14 +2,22 @@ load('config.js');
 
 function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
-    let response = fetch(url);
+    var response = fetch(url, {
+        method : "GET",
+        headers : {
+            Referer: BASE_URL,
+            'user-agent': USER_AGENT,
+        }
+    })
     if(response.ok){
         let doc = response.text();
         let bookId = doc.match(/id: "(\d+)"/)[1];
         let json = fetch(BASE_URL + '/api/comic/'+bookId+'/chapter?limit=-1', {
             method : "GET",
             headers : {
-                'Referer': BASE_URL + '/danh-sach'
+                Referer: BASE_URL + '/danh-sach',
+                Authorization: TOKEN,
+                'user-agent': USER_AGENT,
             },
         }).json();
         let allChap = json.result.chapters;

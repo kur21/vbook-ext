@@ -28,9 +28,9 @@ function execute(url) {
             detail: 'Tên khác: ' + doc.select(".book_info .list-info .othername h2").text() +
             '<br>Tác giả: ' + doc.select(".book_info .list-info .author a.org").text() +
             '<br>Tình trạng: ' + doc.select(".book_info .list-info .status .col-xs-9").text() +
-            '<br>Lượt thích: ' + doc.select(".book_info .list-info .row:nth-child(4) .number-like").text() +
-            '<br>Lượt theo dõi: ' + doc.select(".book_info .list-info .row:nth-child(5) .col-xs-9").text() +
-            '<br>Lượt xem: ' + doc.select(".book_info .list-info .row:nth-child(6) .col-xs-9").text(),
+            '<br>Lượt thích: ' + doc.select(".book_info .list-info .row .number-like").text() +
+            '<br>Lượt theo dõi: ' + doc.select(".book_info .list-info .row:nth-last-child(2) .col-xs-9").text() +
+            '<br>Lượt xem: ' + doc.select(".book_info .list-info .row:nth-last-child(1) .col-xs-9").text(),
             ongoing: doc.select(".book_info div.txt").html().indexOf("Đang Cập Nhật") >= 0,
             genres: genres
         });

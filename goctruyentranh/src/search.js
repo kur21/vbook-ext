@@ -5,7 +5,9 @@ function execute(key, page) {
     let response = fetch(BASE_URL + `/api/v2/search?p=${page}&searchValue=${key}&orders%5B%5D=updatedAt`, {
         method : "GET",
         headers : {
-            'Referer': BASE_URL + '/danh-sach'
+            Referer: BASE_URL + '/danh-sach',
+            Authorization: TOKEN,
+            'user-agent': USER_AGENT,
         },
     });
     if(response.ok){

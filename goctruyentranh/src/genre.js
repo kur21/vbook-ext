@@ -1,7 +1,13 @@
 load('config.js');
 
 function execute() {
-    let response = fetch(BASE_URL + '/danh-sach');
+    let response = fetch(BASE_URL + '/danh-sach', {
+        method : "GET",
+        headers : {
+            Referer: BASE_URL,
+            'user-agent': USER_AGENT,
+        }
+    });
     if(response.ok){
         let doc = response.html();
         let allItem = doc.select('.block-category .item-status')

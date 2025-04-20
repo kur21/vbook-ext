@@ -2,7 +2,14 @@ load('config.js');
 
 function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
-    var response = fetch(url)
+    var response = fetch(url, {
+        method : "GET",
+        headers : {
+            Referer: BASE_URL,
+            'user-agent': USER_AGENT,
+        }
+    })
+
     if(response.ok) {
         var imgs = []
 
@@ -25,6 +32,7 @@ function execute(url) {
                     headers : {
                         Referer: BASE_URL,
                         Authorization: TOKEN,
+                        'user-agent': USER_AGENT,
                     },
                 }).json();
                 imgs = json.result.data;
