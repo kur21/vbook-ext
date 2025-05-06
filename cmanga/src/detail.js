@@ -4,12 +4,11 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        Console.log(doc)
         let genres = [];
         doc.select(".book_other .kind span").forEach(e => {
             genres.push({
                 title: e.text(),
-                input: '#',
+                input: API + '/home_album_list?sort=update&tag=' + e.text(),
                 script: "gen.js"
             });
         });
