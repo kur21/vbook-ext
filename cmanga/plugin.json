@@ -2,7 +2,7 @@
   "metadata": {
     "name": "CManga",
     "author": "Kou",
-    "version": 29,
+    "version": 30,
     "source": "https://cmangax1.com/",
     "regexp": "(www.)?cmanga[a-z0-9]+.com/album/[^/]+/?$",
     "description": "Đọc truyện trên trang CManga",
