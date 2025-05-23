@@ -2,13 +2,13 @@
   "metadata": {
     "name": "XX Knix",
     "author": "Kou",
-    "version": 5,
+    "version": 6,
     "source": "https://xx.knit.bid/",
     "regexp": "(www.)?xx.knit.bid/.*",
     "description": "Xem gái trên Knix",
     "locale": "vi_VN",
     "language": "javascript",
-    "type": "gallery",
+    "type": "comic",
     "tag": "nsfw"
   },
   "script": {

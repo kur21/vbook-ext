@@ -2,13 +2,13 @@
   "metadata": {
     "name": "Everia Club",
     "author": "Kou",
-    "version": 6,
+    "version": 7,
     "source": "https://everia.club",
     "regexp": "(www.)?everia.club/.*",
     "description": "Xem gái trên Everia",
     "locale": "vi_VN",
     "language": "javascript",
-    "type": "gallery",
+    "type": "comic",
     "tag": "nsfw"
   },
   "script": {

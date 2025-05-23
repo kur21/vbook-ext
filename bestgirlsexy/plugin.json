@@ -2,13 +2,13 @@
   "metadata": {
     "name": "Best Girl Sexy",
     "author": "Kou",
-    "version": 5,
+    "version": 6,
     "source": "https://bestgirlsexy.com",
     "regexp": "(www.)?bestgirlsexy.com/.*",
     "description": "Xem gái trên BestGirlSexy",
     "locale": "vi_VN",
     "language": "javascript",
-    "type": "gallery",
+    "type": "comic",
     "tag": "nsfw"
   },
   "script": {

@@ -13,11 +13,11 @@ function execute(url) {
     });
 
     return Response.success({
-        name: doc.select("h1.single-post-title.entry-title").first().text(),
+        name: doc.select("h2.single-post-title.entry-title").first().text(),
         cover: doc.select(".wp-block-gallery .wp-block-image img").first().attr("src"),
         author: "Đang cập nhật",
-        description: doc.select("h1.single-post-title.entry-title").first().text(),
-        detail: doc.select("h1.single-post-title.entry-title").first().text(),
+        description: doc.select("h2.single-post-title.entry-title").first().text(),
+        detail: doc.select("h2.single-post-title.entry-title").first().text(),
         host: BASE_URL,
         ongoing: true,
         genres: genres,
