@@ -8,8 +8,7 @@ function execute(url) {
         }
     });
     if (response.ok) {
-        // let base64String = response.base64();
-        return url
+        return Graphics.createImage(response.base64())
     }
 
     return null;
