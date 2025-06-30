@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Góc Truyện Tranh Beta",
     "author": "Kou",
-    "version": 3,
+    "version": 4,
     "source": "https://goctruyentranhvui17.com/",
     "regexp": "(www.)?goctruyentranhvui[a-z0-9]+.com/truyen/[0-9a-z-]+/?",
     "description": "Xem truyện tại Góc truyện tranh",
