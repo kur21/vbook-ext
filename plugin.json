@@ -120,15 +120,15 @@
             "description": "Đọc truyện trên trang Cứu Truyện"
         },
         {
-            "name": "Truyện GG",
+            "name": "Fox Truyện",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/plugin.zip",
-            "version": 2,
+            "version": 4,
 			"type": "comic",
             "locale": "vi_VN",
-            "source": "https://truyengg.net",
+            "source": "https://foxtruyen.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/icon.png",
-            "description": "Đọc truyện trên trang Truyện GG"
+            "description": "Đọc truyện trên trang Fox Truyện"
         },
         {
             "name": "Đọc Truyện 3Q",
