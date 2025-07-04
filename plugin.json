@@ -149,8 +149,31 @@
             "type": "comic",
             "locale": "vi_VN",
             "source": "https://hangtruyen.org",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hangtruyen/icon.png",
             "description": "Đọc truyện trên trang Hang Truyện"
+        },
+        {
+            "name": "Mino Truyện",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://minotruyendd.xyz",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
+            "description": "Đọc truyện trên trang Mino Truyện"
+        },
+        {
+            "name": "Mino Hentai",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minohentai/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "tag" : "nsfw",
+            "locale": "vi_VN",
+            "source": "https://minohentai.xyz",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minohentai/icon.png",
+            "description": "Đọc truyện trên trang Mino Hentai"
         }
     ]
 }
