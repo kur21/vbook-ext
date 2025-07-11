@@ -151,6 +151,17 @@
             "source": "https://hangtruyen.org",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hangtruyen/icon.png",
             "description": "Đọc truyện trên trang Hang Truyện"
+        },
+        {
+            "name": "Nettruyen Unofficial",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://nettruyen1905.com",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
+            "description": "Đọc truyện trên trang Nettruyen Unofficial"
         }
         // {
         //     "name": "Mino Truyện",

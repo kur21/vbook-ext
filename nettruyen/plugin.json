@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Nettruyen Unofficial",
+    "author": "Kou",
+    "version": 1,
+    "source": "https://nettruyen1905.com",
+    "regexp": "(www.)?nettruyen1905*.*?/manga/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang Nettruyen Unofficial",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
