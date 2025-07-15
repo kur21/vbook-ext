@@ -1,7 +1,7 @@
 load('config.js');
 function execute(key, page) {
     if (!page) page = 1;
-    url = BASE_URL+'/tim-kiem?sort=-updated_at&filter%5Bname%5D='+key+'&filter%5Bstatus%5D=2%2C1&page='+page
+    url = BASE_URL+'/tim-kiem?sort=-updated_at&filter%5Bname%5D='+key+'&filter%5Bstatus%5D=ongoing%2Ccompleted%2Cpaused&page='+page
     let response = fetch(url)
     if(response.ok){
         let doc = response.html();
