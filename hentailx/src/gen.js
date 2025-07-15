@@ -1,6 +1,6 @@
 load('config.js');
 function execute(url, page) {
-    let status = '1,2' // 1: completed, 2: ongoing
+    let status = 'ongoing,completed,paused'
 
     if (!page) page = 1;
 
