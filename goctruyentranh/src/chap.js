@@ -47,8 +47,8 @@ function execute(url) {
         var newImgs = []
         imgs.forEach(img => {
             newImgs.push({
-                script: "image.js",
-                link: img.includes('https') ? img : `${BASE_URL}${img}`
+                link: img.includes('https') ? img : `${BASE_URL}${img}`,
+                referer: BASE_URL,
             })
         })
 
