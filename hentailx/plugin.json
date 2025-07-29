@@ -2,8 +2,8 @@
   "metadata": {
     "name": "LxManga",
     "author": "Kou",
-    "version": 29,
-    "source": "https://lxmanga.blog",
+    "version": 30,
+    "source": "https://lxmanga.my",
     "regexp": "(www.)?lxmanga.[a-z0-9]+/truyen/.*",
     "description": "Đọc truyện trên trang LX Manga",
     "locale": "vi_VN",
