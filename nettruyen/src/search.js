@@ -1,8 +1,9 @@
 load('config.js');
 
-function execute(key, page) {
+function execute(key, page) {    
     if (!page) page = '1';
     var url = `${BASE_URL}/search/${page}/?keyword=${key}`;
+    Console.log(url)
     var response = fetch(url);
 
     if(response.ok) {
