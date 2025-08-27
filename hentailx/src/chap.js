@@ -7,7 +7,10 @@ function execute(url) {
     for (var i = 0; i < el.size() - 1; i++) {
         var link = el.get(i).attr("data-src");
         if (link.indexOf("banners") < 0) {
-            imgs.push(link.trim())
+            imgs.push({
+                link: link.trim(),
+                script: 'image.js'
+            })
         }
     }
     return Response.success(imgs);
