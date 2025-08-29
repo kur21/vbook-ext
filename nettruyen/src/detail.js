@@ -30,7 +30,6 @@ function execute(url) {
             detail: 'Tên khác: ' + doc.select(".othername h2").text() +
             '<br>Tác giả: ' + doc.select(".author > *:last-child").text() +
             '<br>Tình trạng: ' + doc.select(".status > *:last-child").text() +
-            '<br>Lượt thích: ' + doc.select(".row .number-like").text() +
             '<br>Lượt theo dõi: ' + doc.select(".follow span b").text() +
             '<br>Lượt xem: ' + doc.select(".list-info .row:last-child > *:last-child").text(),
             ongoing: doc.select(".status > *:last-child").text().indexOf("Đang tiến hành") >= 0,
