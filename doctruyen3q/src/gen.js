@@ -14,7 +14,7 @@ function execute(url, page) {
             comiclist.push({
                 name: e.select("h3 a.title-manga").text(),
                 link: e.select("h3 a").attr("href"),
-                cover: e.select(".pop-up .manga-information .image-mini img").attr("data-original"),
+                cover: e.select(".image-item img").attr("data-original") || e.select(".image-item img").attr("src"),
                 description: e.select('li.chapter-detail a').first().text() + ' - ' + e.select('li.chapter-detail i').first().text(),
                 host: BASE_URL
             });

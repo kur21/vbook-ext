@@ -17,13 +17,21 @@ function execute(url) {
             });
         });
 
+        const infoBook = [
+            "Tác giả: "+doc.select("p:contains(Tác Giả) + p").text(),
+            "Trạng thái: "+doc.select("p:contains(Trạng Thái) + p").text(),
+            "Lượt xem: "+doc.select("p:contains(Lượt Xem) + p").text(),
+            "Theo dõi: "+doc.select("p:contains(Theo Dõi) + p").text(),
+            "Bình chọn: "+doc.select("p:contains(Bình Chọn) + p").text()
+        ]
+
         return Response.success({
             name: doc.select("h1[itemprop=name]").text(),
             cover: cover,
             host: BASE_URL,
             author: doc.select("p:contains(Tác Giả) + p").text(),
             description: doc.select("div.story-detail-info").html(),
-            detail: "Theo dõi: "+doc.select("p:contains(Theo Dõi) + p").text()+'<br>Lượt Xem: '+doc.select("p:contains(Lượt Xem) + p").text(),
+            detail: infoBook.join("<br>"),
             ongoing: doc.select("p:contains(Trạng Thái) + p").text().indexOf("Đang Cập Nhật") >= 0,
             genres: genres
         });

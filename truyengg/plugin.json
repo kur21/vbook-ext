@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Fox Truyện",
     "author": "Kou",
-    "version": 4,
+    "version": 5,
     "source": "https://foxtruyen.com",
     "regexp": "(www.)?foxtruyen.[a-z]+/truyen-tranh/[0-9a-z-]+.html",
     "description": "FoxTruyen",
