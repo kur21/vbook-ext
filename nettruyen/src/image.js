@@ -10,5 +10,5 @@ function execute(url) {
         return Graphics.createImage(response.base64())
     }
 
-    return null;
+    return Response.error("Lỗi load ảnh");
 }

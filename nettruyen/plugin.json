@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Nettruyen Unofficial",
     "author": "Kou",
-    "version": 2,
+    "version": 3,
     "source": "https://nettruyen1905.com",
     "regexp": "(www.)?nettruyen1905*.*?/manga/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Nettruyen Unofficial",

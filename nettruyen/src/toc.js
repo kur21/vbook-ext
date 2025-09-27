@@ -10,9 +10,11 @@ function execute(url) {
         var el = doc.select("#nt_listchapter nav .chapter > a");
         for (var i = el.size() - 1; i >= 0; i--) {
             var e = el.get(i);
+            var href = e.attr("href").includes('http') ? e.attr("href") : BASE_URL + e.attr("href")
+            var chapId = e.attr("data-id")
             list.push({
                 name: e.text(),
-                url: e.attr("href").includes('http') ? e.attr("href") : BASE_URL + e.attr("href"),
+                url: href + "#" + chapId,
                 host: BASE_URL,
             });
         }
