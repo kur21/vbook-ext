@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Mino Truyện",
+    "author": "Kou",
+    "version": 1,
+    "source": "https://minotruyenff.xyz",
+    "regexp": "(www.)?minotruyen*.*?/[0-9a-z-]+/truyen/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang Mino Truyện",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

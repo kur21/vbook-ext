@@ -151,6 +151,17 @@
             "source": "https://nettruyen1905.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
             "description": "Đọc truyện trên trang Nettruyen Unofficial"
+        },
+        {
+            "name": "Mino",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://minotruyenff.xyz",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
+            "description": "Đọc truyện trên trang Mino"
         }
     ]
 }
