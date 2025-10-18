@@ -41,18 +41,6 @@
             "description": "Xem ảnh trên trang Best Girl Sexy"
         },
         {
-            "name": "LxManga",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-            "version": 32,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://lxmanga.my",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/icon.png",
-            "description": "Đọc truyện trên trang LxManga"
-        },
-        {
             "name": "Truyện QQ",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
@@ -162,6 +150,18 @@
             "source": "https://minotruyenzz.xyz",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
             "description": "Đọc truyện trên trang Mino"
+        },
+        {
+            "name": "vi-Hentai",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://vi-hentai.org",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/icon.png",
+            "description": "Đọc truyện trên trang vi-Hentai"
         }
     ]
 }

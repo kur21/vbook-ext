@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "vi-Hentai",
+    "author": "Kou",
+    "version": 1,
+    "source": "https://vi-hentai.org/",
+    "regexp": "(www.)?vi-hentai*.*?/truyen/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang vi-Hentai",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "tag": "nsfw",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
