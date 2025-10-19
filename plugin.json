@@ -41,6 +41,18 @@
             "description": "Xem ảnh trên trang Best Girl Sexy"
         },
         {
+            "name": "LxManga",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
+            "version": 33,
+            "type": "comic",
+            "tag": "nsfw",
+            "locale": "vi_VN",
+            "source": "https://lxmanga.my",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/icon.png",
+            "description": "Đọc truyện trên trang LxManga"
+        },
+        {
             "name": "Truyện QQ",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
