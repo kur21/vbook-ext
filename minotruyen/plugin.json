@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Mino Truyện",
     "author": "Kou",
-    "version": 2,
-    "source": "https://minotruyenzz.xyz",
+    "version": 3,
+    "source": "https://minotruyengg.xyz/",
     "regexp": "(www.)?minotruyen*.*?/[0-9a-z-]+/truyen/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Mino Truyện",
     "locale": "vi_VN",

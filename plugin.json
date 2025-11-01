@@ -156,10 +156,10 @@
             "name": "Mino",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/plugin.zip",
-            "version": 2,
+            "version": 3,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://minotruyenzz.xyz",
+            "source": "https://minotruyengg.xyz",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
             "description": "Đọc truyện trên trang Mino"
         },
