@@ -2,7 +2,7 @@
   "metadata": {
     "name": "XX Knix",
     "author": "Kou",
-    "version": 6,
+    "version": 7,
     "source": "https://xx.knit.bid/",
     "regexp": "(www.)?xx.knit.bid/.*",
     "description": "Xem gái trên Knix",

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Everia Club",
     "author": "Kou",
-    "version": 7,
+    "version": 8,
     "source": "https://everia.club",
     "regexp": "(www.)?everia.club/.*",
     "description": "Xem gái trên Everia",
