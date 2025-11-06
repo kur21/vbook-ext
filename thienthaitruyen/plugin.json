@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Thiên Thai Truyện",
+    "author": "Kou",
+    "version": 1,
+    "source": "https://thienthaitruyen.com/",
+    "regexp": "(www.)?thienthaitruyen*.*?/truyen-tranh/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang Thiên Thai Truyện",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "tag": "nsfw",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
