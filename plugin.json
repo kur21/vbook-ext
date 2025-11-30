@@ -78,10 +78,10 @@
             "name": "CManga",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 35,
+            "version": 36,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://cmangax5.com",
+            "source": "https://cmangax8.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
             "description": "Đọc truyện trên trang CManga"
         },
@@ -89,11 +89,11 @@
             "name": "Say Hentai",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
-            "version": 18,
+            "version": 19,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
-            "source": "https://sayhentaii.ink",
+            "source": "https://sayhentai.live",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
             "description": "Đọc truyện trên trang Say Hentai"
         },
@@ -123,10 +123,10 @@
             "name": "Đọc Truyện 3Q",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
-            "version": 8,
+            "version": 9,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://doctruyen3qui14.pro",
+            "source": "https://doctruyen3qui19.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
             "description": "Đọc truyện trên trang Đọc Truyện 3Q"
         },
@@ -134,10 +134,10 @@
             "name": "Hang Truyện",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hangtruyen/plugin.zip",
-            "version": 4,
+            "version": 5,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://hangtruyen.top",
+            "source": "https://hangtruyen.co",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hangtruyen/icon.png",
             "description": "Đọc truyện trên trang Hang Truyện"
         },
@@ -156,10 +156,10 @@
             "name": "Mino",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/plugin.zip",
-            "version": 4,
+            "version": 5,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://minotruyengg.xyz",
+            "source": "https://minotruyenhh.xyz",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
             "description": "Đọc truyện trên trang Mino"
         },
@@ -167,11 +167,11 @@
             "name": "vi-Hentai",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/plugin.zip",
-            "version": 1,
+            "version": 2,
             "type": "comic",
             "tag": "nsfw",
             "locale": "vi_VN",
-            "source": "https://vi-hentai.org",
+            "source": "https://vi-hentai.pro",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/icon.png",
             "description": "Đọc truyện trên trang vi-Hentai"
         },
@@ -186,6 +186,17 @@
             "source": "https://thienthaitruyen.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/icon.png",
             "description": "Đọc truyện trên trang Thiên Thai Truyện"
+        },
+        {
+            "name": "Cứu Truyện",
+            "author": "Kou",
+            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/plugin.zip",
+            "version": 1,
+            "type": "comic",
+            "locale": "vi_VN",
+            "source": "https://cuutruyen.net",
+            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/icon.png",
+            "description": "Đọc truyện trên trang Cứu Truyện"
         }
     ]
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Cứu Truyện",
     "author": "Kou",
-    "version": 2,
+    "version": 1,
     "source": "https://cuutruyen.net",
     "regexp": "(www.)?(cuutruyen|hetcuutruyen|nettrom).(net|com)/mangas/\\d+/?",
     "description": "Đọc truyện trên trang Cứu Truyện",
