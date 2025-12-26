@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Thiên Thai Truyện",
     "author": "Kou",
-    "version": 1,
-    "source": "https://thienthaitruyen.com/",
+    "version": 2,
+    "source": "https://thienthaitruyen1.com/",
     "regexp": "(www.)?thienthaitruyen*.*?/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Thiên Thai Truyện",
     "locale": "vi_VN",
