@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Nettruyen Unofficial",
     "author": "Kou",
-    "version": 5,
-    "source": "https://nettruyen2512.com",
-    "regexp": "(www.)?nettruyen2512*.*?/manga/[0-9a-z-]+/?$",
+    "version": 6,
+    "source": "https://nettruyen2026.com",
+    "regexp": "(www.)?nettruyen2026*.*?/manga/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Nettruyen Unofficial",
     "locale": "vi_VN",
     "language": "javascript",
