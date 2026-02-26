@@ -67,10 +67,10 @@
             "name": "Góc truyện tranh",
             "author": "Kou",
             "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 37,
+            "version": 38,
             "type": "comic",
             "locale": "vi_VN",
-            "source": "https://goctruyentranhvui20.com",
+            "source": "https://goctruyentranhvui21.com",
             "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
             "description": "Đọc truyện trên trang Góc truyện tranh"
         },
