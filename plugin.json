@@ -1,191 +1,179 @@
 {
-    "metadata": {
-        "author": "Kou",
-        "description": "No hentai no life~"
+  "metadata": {
+    "author": "Kou",
+    "description": "No hentai no life~"
+  },
+  "data": [
+    {
+      "name": "XX Knix",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/plugin.zip",
+      "version": 7,
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi_VN",
+      "source": "https://xx.knit.bid",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
+      "description": "Xem ảnh trên trang XX Knix"
     },
-    "data": [
-        {
-            "name": "XX Knix",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/plugin.zip",
-            "version": 7,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://xx.knit.bid",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/knix/icon.png",
-            "description": "Xem ảnh trên trang XX Knix"
-        },
-        {
-            "name": "Everia",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/plugin.zip",
-            "version": 8,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://everia.club",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/icon.png",
-            "description": "Xem ảnh trên trang Everia"
-        },
-        {
-            "name": "Best Girl Sexy",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/plugin.zip",
-            "version": 7,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://bestgirlsexy.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
-            "description": "Xem ảnh trên trang Best Girl Sexy"
-        },
-        // {
-        //     "name": "LxManga",
-        //     "author": "Kou",
-        //     "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/plugin.zip",
-        //     "version": 36,
-        //     "type": "comic",
-        //     "tag": "nsfw",
-        //     "locale": "vi_VN",
-        //     "source": "https://lxmanga.space",
-        //     "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/hentailx/icon.png",
-        //     "description": "Đọc truyện trên trang LxManga"
-        // },
-        {
-            "name": "Truyện QQ",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
-            "version": 18,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://truyenqqno.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/icon.png",
-            "description": "Đọc truyện trên trang Truyện QQ"
-        },
-        {
-            "name": "Góc truyện tranh",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
-            "version": 39,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://goctruyentranhvui22.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
-            "description": "Đọc truyện trên trang Góc truyện tranh"
-        },
-        {
-            "name": "CManga",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
-            "version": 41,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://cmangax16.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
-            "description": "Đọc truyện trên trang CManga"
-        },
-        {
-            "name": "Say Hentai",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
-            "version": 21,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://sayhentai.vc",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
-            "description": "Đọc truyện trên trang Say Hentai"
-        },
-        {
-            "name": "Truyện VN",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
-            "version": 17,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://truyenvn.shop",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
-            "description": "Đọc truyện trên trang Truyện VN"
-        },
-        {
-            "name": "Fox Truyện",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/plugin.zip",
-            "version": 7,
-			"type": "comic",
-            "locale": "vi_VN",
-            "source": "https://foxtruyen2.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/icon.png",
-            "description": "Đọc truyện trên trang Fox Truyện"
-        },
-        {
-            "name": "Đọc Truyện 3Q",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
-            "version": 14,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://doctruyen3qui14.pro",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
-            "description": "Đọc truyện trên trang Đọc Truyện 3Q"
-        },
-        {
-            "name": "Nettruyen Unofficial",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
-            "version": 9,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://nettruyen6s.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
-            "description": "Đọc truyện trên trang Nettruyen Unofficial"
-        },
-        {
-            "name": "Mino",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/plugin.zip",
-            "version": 10,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://minotruyenv5.xyz",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
-            "description": "Đọc truyện trên trang Mino"
-        },
-        {
-            "name": "vi-Hentai",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/plugin.zip",
-            "version": 3,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://vi-hentai.pro",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/icon.png",
-            "description": "Đọc truyện trên trang vi-Hentai"
-        },
-        {
-            "name": "Thiên Thai Truyện",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/plugin.zip",
-            "version": 5,
-            "type": "comic",
-            "tag": "nsfw",
-            "locale": "vi_VN",
-            "source": "https://thienthaitruyen8.com",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/icon.png",
-            "description": "Đọc truyện trên trang Thiên Thai Truyện"
-        },
-        {
-            "name": "Cứu Truyện",
-            "author": "Kou",
-            "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/plugin.zip",
-            "version": 1,
-            "type": "comic",
-            "locale": "vi_VN",
-            "source": "https://cuutruyen.net",
-            "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/icon.png",
-            "description": "Đọc truyện trên trang Cứu Truyện"
-        }
-    ]
+    {
+      "name": "Everia",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/plugin.zip",
+      "version": 8,
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi_VN",
+      "source": "https://everia.club",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/everia/icon.png",
+      "description": "Xem ảnh trên trang Everia"
+    },
+    {
+      "name": "Best Girl Sexy",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/plugin.zip",
+      "version": 7,
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi_VN",
+      "source": "https://bestgirlsexy.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
+      "description": "Xem ảnh trên trang Best Girl Sexy"
+    },
+    {
+      "name": "Truyện QQ",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
+      "version": 18,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://truyenqqno.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/icon.png",
+      "description": "Đọc truyện trên trang Truyện QQ"
+    },
+    {
+      "name": "Góc truyện tranh",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/plugin.zip",
+      "version": 39,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://goctruyentranhvui22.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/goctruyentranh/icon.png",
+      "description": "Đọc truyện trên trang Góc truyện tranh"
+    },
+    {
+      "name": "CManga",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/plugin.zip",
+      "version": 41,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://cmangax16.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cmanga/icon.png",
+      "description": "Đọc truyện trên trang CManga"
+    },
+    {
+      "name": "Say Hentai",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/plugin.zip",
+      "version": 21,
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi_VN",
+      "source": "https://sayhentai.vc",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/sayhentai/icon.png",
+      "description": "Đọc truyện trên trang Say Hentai"
+    },
+    {
+      "name": "Truyện VN",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
+      "version": 17,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://truyenvn.shop",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
+      "description": "Đọc truyện trên trang Truyện VN"
+    },
+    {
+      "name": "Fox Truyện",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/plugin.zip",
+      "version": 7,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://foxtruyen2.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyengg/icon.png",
+      "description": "Đọc truyện trên trang Fox Truyện"
+    },
+    {
+      "name": "Đọc Truyện 3Q",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
+      "version": 14,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://doctruyen3qui14.pro",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/icon.png",
+      "description": "Đọc truyện trên trang Đọc Truyện 3Q"
+    },
+    {
+      "name": "Nettruyen Unofficial",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
+      "version": 9,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://nettruyen6s.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
+      "description": "Đọc truyện trên trang Nettruyen Unofficial"
+    },
+    {
+      "name": "Mino",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/plugin.zip",
+      "version": 10,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://minotruyenv5.xyz",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/minotruyen/icon.png",
+      "description": "Đọc truyện trên trang Mino"
+    },
+    {
+      "name": "vi-Hentai",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/plugin.zip",
+      "version": 4,
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi_VN",
+      "source": "https://vi-hentai.pro",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/vi-hentai/icon.png",
+      "description": "Đọc truyện trên trang vi-Hentai"
+    },
+    {
+      "name": "Thiên Thai Truyện",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/plugin.zip",
+      "version": 5,
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi_VN",
+      "source": "https://thienthaitruyen8.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/icon.png",
+      "description": "Đọc truyện trên trang Thiên Thai Truyện"
+    },
+    {
+      "name": "Cứu Truyện",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/plugin.zip",
+      "version": 1,
+      "type": "comic",
+      "locale": "vi_VN",
+      "source": "https://cuutruyen.net",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/icon.png",
+      "description": "Đọc truyện trên trang Cứu Truyện"
+    }
+  ]
 }
