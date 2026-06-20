@@ -122,10 +122,10 @@
       "name": "Nettruyen Unofficial",
       "author": "Kou",
       "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/plugin.zip",
-      "version": 11,
+      "version": 12,
       "type": "comic",
       "locale": "vi_VN",
-      "source": "https://nettruyen9s.com",
+      "source": "https://nettruyen10s.com",
       "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/nettruyen/icon.png",
       "description": "Đọc truyện trên trang Nettruyen Unofficial"
     },
