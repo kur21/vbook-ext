@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Đọc Truyện 3Q",
     "author": "Kou",
-    "version": 14,
-    "source": "https://doctruyen3qui14.pro",
+    "version": 15,
+    "source": "https://doctruyen3qhub.vip",
     "regexp": "(www.)?doctruyen3q[a-z0-9]+.[a-z]+/truyen-tranh/[^/]+/\\d+$",
     "description": "Đọc truyện trên trang Đọc Truyện 3Q",
     "locale": "vi_VN",
