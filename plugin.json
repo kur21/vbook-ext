@@ -29,18 +29,6 @@
       "description": "Xem ảnh trên trang Everia"
     },
     {
-      "name": "Best Girl Sexy",
-      "author": "Kou",
-      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/plugin.zip",
-      "version": 7,
-      "type": "comic",
-      "tag": "nsfw",
-      "locale": "vi_VN",
-      "source": "https://bestgirlsexy.com",
-      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/bestgirlsexy/icon.png",
-      "description": "Xem ảnh trên trang Best Girl Sexy"
-    },
-    {
       "name": "Truyện QQ",
       "author": "Kou",
       "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenqq/plugin.zip",
