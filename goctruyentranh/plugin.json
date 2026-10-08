@@ -2,20 +2,35 @@
   "metadata": {
     "name": "Góc Truyện Tranh",
     "author": "Kou",
-    "version": 42,
-    "source": "https://goctruyentranhvui41.com/",
-    "regexp": "(www.)?goctruyentranhvui[a-z0-9]+.com/truyen/[0-9a-z-]+/?",
+    "version": 44,
+    "source": "https://goctruyentranhvui41.com",
+    "regexp": "(https?://)?(www\\.)?goctruyentranhvui[0-9a-z]+\\.com/truyen/[0-9a-z-]+(/chuong-[0-9]+)?/?",
     "description": "Xem truyện tại Góc truyện tranh",
-    "locale": "vi-VN",
+    "locale": "vi",
     "language": "javascript",
     "type": "comic"
   },
   "script": {
+    "config": "config.js",
     "home": "home.js",
     "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://goctruyentranhvui41.com",
+      "mode": "input"
+    },
+    "AUTHORIZATION": {
+      "title": "Authorization token",
+      "default": "",
+      "mode": "input"
+    },
+    "thread_num": 2,
+    "delay": 500
   }
 }
