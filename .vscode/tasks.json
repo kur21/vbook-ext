@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build extension (encrypted)",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\build-extension.ps1",
+        "-Extension",
+        "${input:extension}",
+        "-Output",
+        "${workspaceFolder}\\${input:extension}\\plugin.zip"
+      ],
+      "options": {
+        "env": {
+          "VBOOK_SERVER": "${env:VBOOK_SERVER}"
+        }
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "extension",
+      "description": "Extension folder to build",
+      "type": "promptString",
+      "default": "goctruyentranh"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
     "author": "Kou",
     "version": 45,
     "source": "https://goctruyentranhvui41.com",
+    "encrypt": true,
     "regexp": "(https?://)?(www\\.)?goctruyentranhvui[0-9a-z]+\\.com/truyen/[0-9a-z-]+(/chuong-[0-9]+)?/?",
     "description": "Xem truyện tại Góc truyện tranh",
     "locale": "vi",
