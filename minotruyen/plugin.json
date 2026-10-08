@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Mino Truyện",
     "author": "Kou",
-    "version": 12,
+    "version": 13,
     "source": "https://minotruyenv7.xyz",
-    "regexp": "(www.)?minotruyen[0-9a-z-]+.*?/[0-9a-z-]+/books/[0-9a-z-]+/?$",
+    "regexp": "(https?://)?(www\\.)?minotruyen[0-9a-z-]+\\.[a-z]+/.+",
     "description": "Đọc truyện trên trang Mino Truyện",
-    "locale": "vi_VN",
+    "locale": "vi",
     "language": "javascript",
     "type": "comic"
   },
@@ -17,5 +17,23 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://minotruyenv7.xyz",
+      "mode": "input",
+      "format": "text"
+    },
+    "TYPE": {
+      "title": "Category",
+      "default": "comics",
+      "mode": "select",
+      "values": [
+        "manga",
+        "comics",
+        "hentai"
+      ]
+    }
   }
 }
