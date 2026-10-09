@@ -2,13 +2,14 @@
   "metadata": {
     "name": "Truyện QQ",
     "author": "Kou",
-    "version": 20,
+    "version": 21,
     "source": "https://truyenqqko.com",
-    "regexp": "(www.)?truyenqq*.*?/truyen-tranh/[0-9a-z-]+/?$",
+    "regexp": "(https?://)?(www\\.)?truyenqq[a-z0-9-]*\\.com/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Truyện QQ",
     "locale": "vi_VN",
     "language": "javascript",
-    "type": "comic"
+    "type": "comic",
+    "nsfw": false
   },
   "script": {
     "home": "home.js",
@@ -16,6 +17,14 @@
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
-    "chap": "chap.js"
+    "chap": "chap.js",
+    "config": "config.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://truyenqqko.com",
+      "mode": "input"
+    }
   }
 }
