@@ -2,14 +2,16 @@
   "metadata": {
     "name": "Thiên Thai Truyện",
     "author": "Kou",
-    "version": 8,
-    "source": "https://thienthaitruyen14.com/",
-    "regexp": "(www.)?thienthaitruyen*.*?/truyen-tranh/[0-9a-z-]+/?$",
+    "version": 9,
+    "source": "https://thienthaitruyen16.com",
+    "encrypt": true,
+    "regexp": "(https?://)?(www\\.)?thienthaitruyen(?:14|16)\\.com/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Thiên Thai Truyện",
     "locale": "vi_VN",
     "language": "javascript",
     "tag": "nsfw",
-    "type": "comic"
+    "type": "comic",
+    "nsfw": true
   },
   "script": {
     "home": "home.js",
@@ -17,6 +19,14 @@
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
-    "chap": "chap.js"
+    "chap": "chap.js",
+    "config": "config.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://thienthaitruyen16.com",
+      "mode": "input"
+    }
   }
 }

@@ -133,11 +133,11 @@
       "name": "Thiên Thai Truyện",
       "author": "Kou",
       "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/plugin.zip",
-      "version": 8,
+      "version": 9,
       "type": "comic",
       "tag": "nsfw",
       "locale": "vi_VN",
-      "source": "https://thienthaitruyen14.com",
+      "source": "https://thienthaitruyen16.com",
       "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/thienthaitruyen/icon.png",
       "description": "Đọc truyện trên trang Thiên Thai Truyện"
     },
