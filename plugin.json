@@ -136,7 +136,8 @@
       "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/pandalive/plugin.zip",
       "version": 1,
       "type": "video",
-      "locale": "vi_VN",
+      "tag": "nsfw",
+      "locale": "kr_KR",
       "source": "https://www.pandalive.co.kr",
       "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/pandalive/icon.png",
       "description": "Xem livestream PandaLive"
