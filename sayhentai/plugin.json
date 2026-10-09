@@ -2,21 +2,30 @@
   "metadata": {
     "name": "Say Hentai",
     "author": "Kou",
-    "version": 23,
+    "version": 24,
     "source": "https://sayhentai.cx",
-    "regexp": "(www.)?sayhentai.[a-z]/[^/]+.html",
+    "encrypt": true,
+    "regexp": "(https?://)?(www\\.)?sayhentai\\.cx/[^/]+\\.html",
     "description": "Đọc truyện trên trang Say Hentai",
     "locale": "vi_VN",
     "language": "javascript",
-	"type": "comic",
-    "tag" : "nsfw"
+    "type": "comic",
+    "nsfw": true
   },
   "script": {
+    "config": "config.js",
     "home": "home.js",
     "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://sayhentai.cx",
+      "mode": "input"
+    }
   }
 }
