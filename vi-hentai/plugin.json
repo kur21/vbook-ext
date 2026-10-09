@@ -2,14 +2,16 @@
   "metadata": {
     "name": "vi-Hentai",
     "author": "Kou",
-    "version": 4,
-    "source": "https://vi-hentai.pro/",
-    "regexp": "(www.)?vi-hentai*.*?/truyen/[0-9a-z-]+/?$",
+    "version": 5,
+    "source": "https://vi-hentai.pro",
+    "regexp": "(https?://)?(www\\.)?vi-hentai\\.[a-z]+/truyen/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang vi-Hentai",
     "locale": "vi_VN",
     "language": "javascript",
     "tag": "nsfw",
-    "type": "comic"
+    "type": "comic",
+    "nsfw": true,
+    "encrypt": true
   },
   "script": {
     "home": "home.js",
@@ -17,6 +19,14 @@
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
-    "chap": "chap.js"
+    "chap": "chap.js",
+    "config": "config.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://vi-hentai.pro",
+      "mode": "input"
+    }
   }
 }
