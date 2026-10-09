@@ -129,6 +129,17 @@
       "source": "https://cuutruyen.net",
       "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/cuutruyen/icon.png",
       "description": "Đọc truyện trên trang Cứu Truyện"
+    },
+    {
+      "name": "PandaLive",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/pandalive/plugin.zip",
+      "version": 1,
+      "type": "video",
+      "locale": "vi_VN",
+      "source": "https://www.pandalive.co.kr",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/pandalive/icon.png",
+      "description": "Xem livestream PandaLive"
     }
   ]
 }
