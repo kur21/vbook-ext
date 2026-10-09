@@ -4,6 +4,7 @@
     "author": "Kou",
     "version": 10,
     "source": "https://everia.club",
+    "encrypt": true,
     "regexp": "(https?://)?(www\\.)?everia\\.club/.+",
     "description": "Xem gái trên Everia",
     "locale": "vi_VN",

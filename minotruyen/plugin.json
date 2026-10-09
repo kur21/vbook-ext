@@ -4,6 +4,7 @@
     "author": "Kou",
     "version": 13,
     "source": "https://minotruyenv7.xyz",
+    "encrypt": true,
     "regexp": "(https?://)?(www\\.)?minotruyen[0-9a-z-]+\\.[a-z]+/.+",
     "description": "Đọc truyện trên trang Mino Truyện",
     "locale": "vi",
