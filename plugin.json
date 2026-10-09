@@ -63,17 +63,6 @@
       "description": "Đọc truyện trên trang Say Hentai"
     },
     {
-      "name": "Truyện VN",
-      "author": "Kou",
-      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/plugin.zip",
-      "version": 19,
-      "type": "comic",
-      "locale": "vi_VN",
-      "source": "https://truyenvn.onl",
-      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/truyenvn/icon.png",
-      "description": "Đọc truyện trên trang Truyện VN"
-    },
-    {
       "name": "Đọc Truyện 3Q",
       "author": "Kou",
       "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/doctruyen3q/plugin.zip",
