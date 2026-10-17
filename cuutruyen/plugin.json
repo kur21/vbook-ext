@@ -2,13 +2,15 @@
   "metadata": {
     "name": "Cứu Truyện",
     "author": "Kou",
-    "version": 2,
+    "version": 3,
     "source": "https://cuutruyen.net",
-    "regexp": "(www.)?(cuutruyen|hetcuutruyen|nettrom).(net|com)/mangas/\\d+/?",
+    "encrypt": true,
+    "regexp": "(https?://)?(www\\.)?(cuutruyen|hetcuutruyen|nettrom)\\.(net|com)/mangas/\\d+/?",
     "description": "Đọc truyện trên trang Cứu Truyện",
-    "local": "vi_VN",
+    "locale": "vi",
     "language": "javascript",
-    "type": "comic"
+    "type": "comic",
+    "nsfw": false
   },
   "script": {
     "home": "home.js",
@@ -16,5 +18,13 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://cuutruyen.net",
+      "mode": "input",
+      "format": "text"
+    }
   }
 }
