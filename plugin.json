@@ -141,6 +141,18 @@
       "source": "https://www.pandalive.co.kr",
       "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/pandalive/icon.png",
       "description": "Xem livestream PandaLive"
+    },
+    {
+      "name": "SupJav",
+      "author": "Kou",
+      "path": "https://raw.githubusercontent.com/kur21/vbook-ext/main/supjav/plugin.zip",
+      "version": 1,
+      "type": "video",
+      "tag": "nsfw",
+      "locale": "en_US",
+      "source": "https://supjav.com",
+      "icon": "https://raw.githubusercontent.com/kur21/vbook-ext/main/supjav/icon.png",
+      "description": "Xem video trên SupJav"
     }
   ]
 }

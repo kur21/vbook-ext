@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "SupJav",
+    "author": "Kou",
+    "version": 1,
+    "source": "https://supjav.com",
+    "description": "Xem video trên SupJav",
+    "locale": "en_US",
+    "regexp": "(https?://)?(www\\.)?supjav\\.[a-z]+/(?:[a-z]{2}/)?\\d+\\.html/?$",
+    "type": "video",
+    "nsfw": true,
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://supjav.com",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
