@@ -2,13 +2,14 @@
   "metadata": {
     "name": "Đọc Truyện 3Q",
     "author": "Kou",
-    "version": 15,
-    "source": "https://doctruyen3qhub.vip",
-    "regexp": "(www.)?doctruyen3q[a-z0-9]+.[a-z]+/truyen-tranh/[^/]+/\\d+$",
+    "version": 16,
+    "source": "https://doctruyen3qhub.fit",
+    "encrypt": true,
+    "regexp": "(https?://)?(www\\.)?doctruyen3q[a-z0-9]*\\.[a-z]+/truyen-tranh/[^/]+/\\d+/?",
     "description": "Đọc truyện trên trang Đọc Truyện 3Q",
     "locale": "vi_VN",
     "language": "javascript",
-	"type": "comic"
+    "type": "comic"
   },
   "script": {
     "home": "home.js",
@@ -17,5 +18,13 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://doctruyen3qhub.fit",
+      "mode": "input",
+      "format": "text"
+    }
   }
 }
