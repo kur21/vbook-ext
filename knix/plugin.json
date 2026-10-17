@@ -2,8 +2,9 @@
   "metadata": {
     "name": "XX Knix",
     "author": "Kou",
-    "version": 8,
+    "version": 9,
     "source": "https://xx.knit.bid/",
+    "encrypt": true,
     "regexp": "(www.)?xx.knit.bid/.*",
     "description": "Xem gái trên Knix",
     "locale": "vi_VN",
@@ -17,6 +18,7 @@
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
-    "chap": "chap.js"
+    "chap": "chap.js",
+    "track": "track.js"
   }
 }
