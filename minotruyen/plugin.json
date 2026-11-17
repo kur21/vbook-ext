@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Mino Truyện",
     "author": "Kou",
-    "version": 13,
+    "version": 14,
     "source": "https://minotruyenv7.xyz",
     "encrypt": true,
     "regexp": "(https?://)?(www\\.)?minotruyen[0-9a-z-]+\\.[a-z]+/.+",

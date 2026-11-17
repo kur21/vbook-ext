@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Nettruyen Unofficial",
     "author": "Kou",
-    "version": 14,
-    "source": "https://nettruyen14s.com",
+    "version": 15,
+    "source": "https://nettruyen15s.com",
     "encrypt": true,
-    "regexp": "(https?://)?(www\\.)?nettruyen(?:13s|14s)\\.com/manga/[0-9a-z-]+/?$",
+    "regexp": "(https?://)?(www\\.)?nettruyen\\d+s\\.com/manga/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang Nettruyen Unofficial",
     "locale": "vi_VN",
     "language": "javascript",
@@ -22,7 +22,7 @@
   "config": {
     "DOMAIN": {
       "title": "Domain",
-      "default": "https://nettruyen14s.com",
+      "default": "https://nettruyen15s.com",
       "mode": "input"
     }
   }
